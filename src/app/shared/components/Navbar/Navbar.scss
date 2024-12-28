@@ -1,0 +1,149 @@
+.navbar-container {
+  .nav-menu-header {
+    .nav-menu-content {
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .nav-menu-item-link {
+      background-color: red;
+    }
+  }
+  .nav-menu-dropdown-content {
+    background-color: blue;
+  }
+}
+
+// .header {
+//   position: fixed;
+//   width: 100%;
+//   top: 0;
+//   background-color: transparent;
+//   z-index: 1000;
+//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+//   &.header-fixed--true {
+//     /* Add specific styles for a fixed navbar */
+//   }
+
+//   .container {
+//     width: 100%;
+//     margin: 0 auto;
+//     padding: 1.9rem 1rem;
+//     padding-bottom: 0;
+//     display: flex;
+//     align-items: flex-start;
+
+//     .logo {
+//       a {
+//         text-decoration: none;
+//         font-size: 24px;
+//         font-weight: bold;
+//         color: #333;
+//       }
+//     }
+
+//     nav {
+//       display: flex;
+//       align-items: center;
+//       height: var(--nav-height);
+//       .nav-list {
+//         height: 100%;
+//         display: flex;
+//         align-items: center;
+//         padding: 0 0.625rem;
+//         margin: 0;
+//         list-style: none;
+//         line-height: 1;
+//         border: 0;
+
+//         & .standalone-menu,
+//         & .hoverable-menu {
+//           flex: 1;
+//           display: flex;
+//           align-items: center;
+//           height: 100%;
+//           color: #d9d9d9;
+//           margin: 0 0.25rem;
+//           padding: 0 0.625rem;
+//           line-height: 4rem;
+//           border-bottom: 1px solid transparent;
+//           cursor: pointer;
+
+//           &:hover {
+//             color: #fff;
+//             border-bottom: 1px solid #fff;
+//           }
+//         }
+
+//         .hoverable-menu {
+//           position: relative;
+//           & a {
+//             display: flex;
+//             align-items: center;
+//             gap: 0.25rem;
+
+//             &:hover {
+//               .icon {
+//                 transform: rotate(90deg);
+//               }
+//             }
+//           }
+//           & .dropdown-menu {
+//             width: max-content;
+//             display: flex;
+//             flex-direction: column;
+//             position: absolute;
+//             padding: 0.75rem 0;
+//             opacity: 0;
+//             top: 75;
+//             left: 0;
+//             transition: opacity 0.3s;
+
+//             & .dropdown-item {
+//               display: flex;
+//               width: 100%;
+//               line-height: 1.5rem;
+//               font-weight: bold;
+//               a {
+//                 display: flex;
+//                 flex-direction: column;
+//                 padding: 0.5rem 1.625rem;
+//               }
+//             }
+//           }
+
+//           &:hover {
+//             & .dropdown-menu {
+//               color: #fff;
+//               background-color: #ffffff80;
+//               opacity: 1;
+
+//               &:hover {
+//                 background-color: #fff;
+//                 color: #000;
+
+//                 & .dropdown-item {
+//                   a {
+//                     width: 100%;
+//                     display: block;
+//                     background-color: transparent;
+//                     span {
+//                       border-bottom: 3px solid transparent;
+//                       transition: 0.3s;
+//                     }
+//                     &:hover {
+//                       span {
+//                         border-bottom-color: #bcce34;
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
