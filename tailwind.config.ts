@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 import type { Config } from "tailwindcss";
 
 export default {
@@ -52,7 +53,8 @@ export default {
   			},
 			project: {
 				DEFAULT: '#bcce34',
-				primary: '#bcce34'
+				primary: '#bcce34',
+				secondary: "#fbbf24"
 			}
   		},
   		borderRadius: {

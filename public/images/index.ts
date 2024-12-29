@@ -18,5 +18,7 @@ export const images = {
     events: `${path}/events1.webp`,
     feedback1: `${path}/feedback1.webp`,
     feedback2: `${path}/feedback2.jpg`,
-    feedback3: `${path}/feedback3.webp`
+    feedback3: `${path}/feedback3.webp`,
+    aboutUs: `${path}/about_us1.jpg`,
+    howItWork: `${path}/side-img-how-it-work.webp`
   };
