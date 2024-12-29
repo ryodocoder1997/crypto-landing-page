@@ -25,11 +25,14 @@ import { Input } from "@/components/input";
 import { images } from "@/public/images";
 import "./Navbar.scss";
 
+import { useRouter } from "next/navigation";
+
 const MENU_DROPDOWN_OPEN_DELAY = 50;
 const MENU_DROPDOWN_CLOSE_DELAY = 100;
 
 export const Navbar = () => {
   const [isSticky, setIsSticky] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -93,10 +96,14 @@ export const Navbar = () => {
                     closeDelay={MENU_DROPDOWN_CLOSE_DELAY}
                   >
                     <HoverCardTrigger className="nav-menu-header">
-                      <NavigationMenuTrigger className="nav-menu-content">
+                      <NavigationMenuTrigger
+                        onClick={() => router.push(menu.url ?? "#")}
+                        className="nav-menu-content"
+                      >
                         {menu.name}
                       </NavigationMenuTrigger>
                     </HoverCardTrigger>
+
                     <HoverCardContent className="nav-menu-dropdown-content">
                       {menu.items.map((item) => (
                         <Link
