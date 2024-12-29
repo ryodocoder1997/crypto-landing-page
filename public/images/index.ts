@@ -15,5 +15,8 @@ export const images = {
     shopPay: `${path}/shop-pay.svg`,
     unionPay: `${path}/union-pay.svg`,
     visa: `${path}/visa.svg`,
-    events: `${path}/events1.webp`
+    events: `${path}/events1.webp`,
+    feedback1: `${path}/feedback1.webp`,
+    feedback2: `${path}/feedback2.jpg`,
+    feedback3: `${path}/feedback3.webp`
   };

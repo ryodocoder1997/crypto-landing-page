@@ -1,0 +1,105 @@
+.feedback-container {
+  .feedback-content-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #666;
+    height: 79.3125rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    z-index: 1;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.4;
+      background: #000;
+      z-index: -1;
+    }
+
+    .feedback-content {
+      text-align: center;
+      color: #fff;
+      padding: 1.25rem 3.125rem;
+      margin: 0 32rem;
+
+      .feedback-slogun {
+        font-size: 1.375rem;
+        font-weight: 600;
+        margin: 1rem 0;
+      }
+
+      .feedback-review {
+        font-size: 1.125rem;
+        font-weight: 400;
+        margin: 1rem 0;
+      }
+
+      .feedback-author {
+        font-size: 1rem;
+        font-weight: 700;
+        margin: 1rem 0;
+      }
+    }
+  }
+
+  .btn-previous,
+  .btn-next {
+    background-color: unset;
+    border: none;
+    color: #bcce34;
+    width: 4rem;
+    height: 100%;
+    border-radius: unset;
+    z-index: 1;
+
+    svg {
+      width: 3rem;
+      height: 3rem;
+    }
+
+    &::before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      background-color: #000;
+      opacity: 0;
+      transition: opacity 0.3s;
+      z-index: -1;
+    }
+
+    &:hover {
+      &::before {
+        opacity: 0.3;
+      }
+    }
+  }
+
+  .btn-previous {
+    position: absolute;
+    top: 50%;
+    left: 0;
+
+    &::before {
+      left: 0;
+    }
+  }
+  .btn-next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+
+    &::before {
+      right: 0;
+    }
+  }
+}
