@@ -1,5 +1,6 @@
 import { Assistant } from "next/font/google";
-import { Navbar } from "./shared/components/Navbar/Navbar";
+import Navbar from "./shared/components/Navbar/Navbar";
+import Footer from "./shared/components/Footer/Footer";
 import "./globals.scss";
 
 const assistant = Assistant({
@@ -19,6 +20,7 @@ export default function RootLayout({
       <body>
         <Navbar />
         <div className={`main-layout ${assistant.className}`}>{children}</div>
+        <Footer />
       </body>
     </html>
   );

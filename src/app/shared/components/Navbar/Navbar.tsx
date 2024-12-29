@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -20,9 +21,9 @@ import {
 import { IoCartOutline, IoSearchSharp } from "react-icons/io5";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 import { Input } from "@/components/input";
-import "./Navbar.scss";
-import Image from "next/image";
+
 import { images } from "@/public/images";
+import "./Navbar.scss";
 
 const MENU_DROPDOWN_OPEN_DELAY = 50;
 const MENU_DROPDOWN_CLOSE_DELAY = 100;
