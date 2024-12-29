@@ -499,7 +499,7 @@ const Product = ({ className }: { className?: string }) => {
         <div
           key={`${menu.titleMain}${menu.titleSub}-product`}
           id={`${menu.titleMain} ${menu.titleSub}`}
-          className="border-b pb-[4em] mb-[6em] w-full"
+          className="border-b pb-[4em] pt-[calc(var(--nav-height)+2em)] w-full"
         >
           <div className="w-full flex items-center justify-center mb-[2em]">
             <h1 className="text-4xl font-bold text-shadow-md uppercase flex flex-col items-center border-project-primary leading-relaxed">
