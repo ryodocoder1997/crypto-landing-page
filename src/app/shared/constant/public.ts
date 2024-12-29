@@ -11,31 +11,31 @@ export const NAVBAR_LINK_MENU: MenuGroup[] = [
         url: '/collections',
         items: [
             {
-                url: '/collections/chaos-lunch-box',
+                url: '/collections#Individual Lunch Boxes',
                 name: 'Individual Lunch Boxes'
             },
             {
-                url: '/collections/tea-time-boxes',
+                url: '/collections#Tea Time Boxes',
                 name: 'Tea Time Boxes'
             },
             {
-                url: '/collections/chao-top-picks',
+                url: "/collections#Chao's Top Picks",
                 name: 'Chao\'s Top Picks'
             },
             {
-                url: '/collections/chaos-platters',
+                url: "/collections#Chao's Platters",
                 name: 'Chao\'s Platters'
             },
             {
-                url: '/collections/funeral-and-wake-catering',
+                url: '/collections#Funeral & Wake Catering',
                 name: 'Funeral & Wake Catering',
             },
             {
-                url: '/collections/chaos-add-ons',
+                url: '/collections#Add -Ons',
                 name: 'Add-Ons'
             },
             {
-                url: '/collections/drinks-desserts',
+                url: '/collections#Drinks & Desserts',
                 name: 'Drinks & Desserts'
             }
         ]
