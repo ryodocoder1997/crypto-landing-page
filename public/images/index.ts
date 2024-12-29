@@ -14,5 +14,6 @@ export const images = {
     payPal: `${path}/pay-pal.svg`,
     shopPay: `${path}/shop-pay.svg`,
     unionPay: `${path}/union-pay.svg`,
-    visa: `${path}/visa.svg`
+    visa: `${path}/visa.svg`,
+    events: `${path}/events1.webp`
   };
