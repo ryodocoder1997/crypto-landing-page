@@ -1,13 +1,15 @@
 .navbar-container {
   height: var(--nav-height);
   z-index: 10;
-  background-color: #1b1f237f;
+  background-color: transparent;
+  position: absolute;
   transition: background-color 0.3s ease; // Smooth background transition
 
   &.sticky {
-    position: sticky;
+    position: fixed;
     top: 0;
     background-color: #1b1f23;
+    opacity: 0.9;
     animation: navbarStickySlideDown 0.5s ease forwards;
   }
 

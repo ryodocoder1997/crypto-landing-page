@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import ProductImage from "@/public/images/product.jpg";
+import { images } from "@/public/images/index";
 
 const data = [
   {
@@ -518,7 +518,7 @@ const Product = ({ className }: { className?: string }) => {
               >
                 <div className="w-full h-auto relative overflow-hidden">
                   <Image
-                    src={ProductImage}
+                    src={images.product}
                     width={2000}
                     height={2000}
                     className="w-full h-auto relative z-0 scale-110 transition-all duration-300 hover:scale-100"

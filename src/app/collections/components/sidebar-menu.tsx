@@ -1,10 +1,10 @@
-"use server";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/accordion";
+import { cn } from "@/public/lib/utils";
 import Link from "next/link";
 import React from "react";
 
@@ -241,36 +241,38 @@ const sidebarMenuItems = [
 
 const SidebarMenu = ({ className }: { className?: string }) => {
   return (
-    <div className={className}>
-      <p className="uppercase border-t-8 border-project-primary text-2xl font-bold w-fit pt-6">
-        Menus
-      </p>
-      <Accordion type="single" collapsible>
-        {sidebarMenuItems.map((menuItem, index) => (
-          <AccordionItem
-            key={menuItem.category}
-            value={`item-${index}`}
-            className="border-none"
-          >
-            <Link href={`#${menuItem.category}`}>
-              <AccordionTrigger className="hover:text-project-primary hover:no-underline text-[16px] font-bold leading-snug">
-                {menuItem.category}
-              </AccordionTrigger>
-            </Link>
-            <AccordionContent className="flex flex-col gap-4">
-              {menuItem.items.map((item) => (
-                <Link
-                  key={item.url}
-                  href={item.url}
-                  className="uppercase font-light text-sm hover:text-project-primary"
-                >
-                  {item.name}
-                </Link>
-              ))}
-            </AccordionContent>
-          </AccordionItem>
-        ))}
-      </Accordion>
+    <div className={cn(className, "relative top-4")}>
+      <div className="sticky top-[calc(var(--nav-height)+2rem)]">
+        <p className="uppercase border-t-8 border-project-primary text-2xl font-bold w-fit pt-6">
+          Menus
+        </p>
+        <Accordion type="single" collapsible>
+          {sidebarMenuItems.map((menuItem, index) => (
+            <AccordionItem
+              key={menuItem.category}
+              value={`item-${index}`}
+              className="border-none"
+            >
+              <Link href={`#${menuItem.category}`}>
+                <AccordionTrigger className="hover:text-project-primary hover:no-underline text-[16px] font-bold leading-snug">
+                  {menuItem.category}
+                </AccordionTrigger>
+              </Link>
+              <AccordionContent className="flex flex-col gap-4">
+                {menuItem.items.map((item) => (
+                  <Link
+                    key={item.url}
+                    href={item.url}
+                    className="uppercase font-light text-sm hover:text-project-primary"
+                  >
+                    {item.name}
+                  </Link>
+                ))}
+              </AccordionContent>
+            </AccordionItem>
+          ))}
+        </Accordion>
+      </div>
     </div>
   );
 };
