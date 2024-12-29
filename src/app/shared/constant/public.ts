@@ -78,5 +78,28 @@ export const NAVBAR_LINK_MENU: MenuGroup[] = [
                 name: 'The Wake'
             },
         ]
+    },
+    {
+        name: "About us",
+        url: '/about-us',
+        items: [
+            {
+                url: '/about-us/our-services',
+                name: 'Our Services'
+            },
+            {
+                url: '/about-us/how-it-works',
+                name: 'How It Works'
+            },
+            {
+                url: '/about-us/faqs',
+                name: 'FAQs'
+            },
+        ]
+    },
+    {
+        name: "Contact",
+        url: '/contact',
+        items: []
     }
 ]
