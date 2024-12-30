@@ -22,5 +22,6 @@ export const images = {
     aboutUs: `${path}/about_us1.jpg`,
     howItWork: `${path}/side-img-how-it-work.webp`,
     contact: `${path}/contact.webp`,
-    home1: `${path}/home1.webp`
+    home1: `${path}/home1.webp`,
+    home2: `${path}/home2.webp`
   };
