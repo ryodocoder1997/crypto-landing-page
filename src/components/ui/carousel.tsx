@@ -9,6 +9,8 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 import { cn } from "@/public/lib/utils";
 import { Button } from "./button";
 
+const CHEVRON_BTN_CLASSNAME = `bg-[unset] border-none text-project-primary w-[4rem] h-full rounded-none opacity-50 z-[1] [&>svg]:w-[3rem] [&>svg]:h-[3rem] [&:hover]:bg-transparent [&:hover]:text-project-primary [&:hover]:opacity-100 [&::before]:content-[''] [&::before]:w-full [&::before]:h-full [&::before]:absolute [&::before]:top-0 [&::before]:bg-black [&::before]:opacity-0 [&::before]:transition-opacity [&::before]:duration-300 [&::before]:z-[-1] [&:hover::before]:opacity-30 `;
+
 type CarouselApi = UseEmblaCarouselType[1];
 type UseCarouselParameters = Parameters<typeof useEmblaCarousel>;
 type CarouselOptions = UseCarouselParameters[0];
@@ -210,7 +212,8 @@ const CarouselPrevious = React.forwardRef<
         orientation === "horizontal"
           ? "-left-12 top-1/2 -translate-y-1/2"
           : "-top-12 left-1/2 -translate-x-1/2 rotate-90",
-        className
+        className,
+        CHEVRON_BTN_CLASSNAME
       )}
       disabled={!canScrollPrev}
       onClick={scrollPrev}
@@ -239,7 +242,8 @@ const CarouselNext = React.forwardRef<
         orientation === "horizontal"
           ? "-right-12 top-1/2 -translate-y-1/2"
           : "-bottom-12 left-1/2 -translate-x-1/2 rotate-90",
-        className
+        className,
+        CHEVRON_BTN_CLASSNAME
       )}
       disabled={!canScrollNext}
       onClick={scrollNext}

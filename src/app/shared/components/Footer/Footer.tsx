@@ -9,7 +9,7 @@ import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa6";
 
 export const Footer = () => {
   return (
-    <div className="flex flex-col w-full justify-center pt-3 items-center footer-container">
+    <div className="flex flex-col w-full justify-center items-center footer-container">
       {/* --- SPECIAL OFFERS --- */}
       <div
         className="special-offer-container"

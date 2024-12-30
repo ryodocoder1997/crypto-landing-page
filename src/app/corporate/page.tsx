@@ -2,6 +2,7 @@ import React from "react";
 import { images } from "@/public/images/index";
 import NavbarIndicator from "@/shared/components/Navbar/NavbarIndicator";
 import Link from "next/link";
+import Feedback from "@/shared/components/Feedback/Feedback";
 
 const classes = {
   link: "font-bold text-project-primary hover:text-black",
@@ -158,6 +159,7 @@ const Page = () => {
           </div>
         </div>
       </div>
+      <Feedback />
     </div>
   );
 };

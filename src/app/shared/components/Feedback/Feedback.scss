@@ -58,6 +58,7 @@
     width: 4rem;
     height: 100%;
     border-radius: unset;
+    opacity: 0.5;
     z-index: 1;
 
     svg {
@@ -78,6 +79,7 @@
     }
 
     &:hover {
+      opacity: 1;
       &::before {
         opacity: 0.3;
       }
