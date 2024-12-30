@@ -20,5 +20,6 @@ export const images = {
     feedback2: `${path}/feedback2.jpg`,
     feedback3: `${path}/feedback3.webp`,
     aboutUs: `${path}/about_us1.jpg`,
-    howItWork: `${path}/side-img-how-it-work.webp`
+    howItWork: `${path}/side-img-how-it-work.webp`,
+    contact: `${path}/contact.webp`
   };

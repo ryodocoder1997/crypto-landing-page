@@ -2,6 +2,8 @@ import { Assistant } from "next/font/google";
 import Navbar from "./shared/components/Navbar/Navbar";
 import Footer from "./shared/components/Footer/Footer";
 import "./globals.scss";
+import { Toaster } from "@/components/ui/toaster";
+import { ToastProvider } from "@/components/ui/toast";
 
 const assistant = Assistant({
   subsets: ["latin"], // Specify the character subsets
@@ -18,9 +20,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Navbar />
-        <div className={`main-layout ${assistant.className}`}>{children}</div>
-        <Footer />
+        <ToastProvider>
+          <Navbar />
+          <Toaster />
+          <div className={`main-layout ${assistant.className}`}>{children}</div>
+          <Footer />
+        </ToastProvider>
       </body>
     </html>
   );
