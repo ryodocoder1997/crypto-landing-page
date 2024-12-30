@@ -31,7 +31,7 @@ const Page = () => {
           <main className="w-full flex flex-col gap-2 mb-[12em] mt-[4em]">
             <ol className="relative text-gray-500 border-s-[3px] border-gray-200 dark:border-gray-700 dark:text-gray-400">
               <li className="mb-10 ms-[4em]">
-                <span className="absolute flex items-center -left-8 justify-center w-16 h-16 bg-white rounded-full -start-4 ring ring-project-primary">
+                <span className="absolute flex items-center -left-[2em] justify-center w-16 h-16 bg-white rounded-full -start-4 ring ring-project-primary">
                   <QrCode className="text-project-primary" size="32" />
                 </span>
                 <h3 className="font-bold leading-tight text-3xl text-project-primary">
@@ -43,9 +43,9 @@ const Page = () => {
               </li>
             </ol>
 
-            <ol className="relative text-gray-500 border-s-[3px] border-gray-200 dark:border-gray-700 dark:text-gray-400">
+            <ol className="relative text-gray-500 border-s-[4px] border-gray-200 dark:border-gray-700 dark:text-gray-400">
               <li className="mb-10 ms-[4em]">
-                <span className="absolute flex items-center -left-8 justify-center w-16 h-16 bg-white rounded-full -start-4 ring-2 ring-project-primary">
+                <span className="absolute flex items-center -left-[2em] justify-center w-16 h-16 bg-white rounded-full -start-4 ring-2 ring-project-primary">
                   <QrCode className="text-project-primary" size="32" />
                 </span>
                 <h3 className="font-bold leading-tight text-3xl text-project-primary">
@@ -61,7 +61,7 @@ const Page = () => {
 
             <ol className="relative text-gray-500 border-s-[3px] border-gray-200 dark:border-gray-700 dark:text-gray-400">
               <li className="mb-10 ms-[4em]">
-                <span className="absolute flex items-center -left-8 justify-center w-16 h-16 bg-white rounded-full -start-4 ring-2 ring-project-primary">
+                <span className="absolute flex items-center -left-[2em] justify-center w-16 h-16 bg-white rounded-full -start-4 ring-2 ring-project-primary">
                   <QrCode className="text-project-primary" size="32" />
                 </span>
                 <h3 className="font-bold leading-tight text-3xl text-project-primary">
@@ -77,7 +77,7 @@ const Page = () => {
 
             <ol className="relative text-gray-500 border-s-[3px] border-gray-200 dark:border-gray-700 dark:text-gray-400">
               <li className="mb-10 ms-[4em]">
-                <span className="absolute flex items-center -left-8 justify-center w-16 h-16 bg-white rounded-full -start-4 ring-2 ring-project-primary">
+                <span className="absolute flex items-center -left-[2em] justify-center w-16 h-16 bg-white rounded-full -start-4 ring-2 ring-project-primary">
                   <QrCode className="text-project-primary" size="32" />
                 </span>
                 <h3 className="font-bold leading-tight text-3xl text-project-primary">
@@ -93,7 +93,7 @@ const Page = () => {
 
             <ol className="relative text-gray-500 border-s-[3px] border-gray-200 dark:border-gray-700 dark:text-gray-400">
               <li className="mb-10 ms-[4em]">
-                <span className="absolute flex items-center -left-8 justify-center w-16 h-16 bg-white rounded-full -start-4 ring-2 ring-project-primary">
+                <span className="absolute flex items-center -left-[2em] justify-center w-16 h-16 bg-white rounded-full -start-4 ring-2 ring-project-primary">
                   <QrCode className="text-project-primary" size="32" />
                 </span>
                 <h3 className="font-bold leading-tight text-3xl text-project-primary">
@@ -109,7 +109,7 @@ const Page = () => {
 
             <ol className="relative text-gray-500 border-s-[3px] border-gray-200 dark:border-gray-700 dark:text-gray-400">
               <li className="mb-10 ms-[4em]">
-                <span className="absolute flex items-center -left-8 justify-center w-16 h-16 bg-white rounded-full -start-4 ring-2 ring-project-primary">
+                <span className="absolute flex items-center -left-[2em] justify-center w-16 h-16 bg-white rounded-full -start-4 ring-2 ring-project-primary">
                   <QrCode className="text-project-primary" size="32" />
                 </span>
                 <h3 className="font-bold leading-tight text-3xl text-project-primary">
@@ -125,7 +125,7 @@ const Page = () => {
 
             <ol className="relative text-gray-500 border-s-[3px] border-gray-200 dark:border-gray-700 dark:text-gray-400">
               <li className="ms-[4em] mb-10">
-                <span className="absolute flex items-center -left-8 justify-center w-16 h-16 bg-white rounded-full -start-4 ring-2 ring-project-primary">
+                <span className="absolute flex items-center -left-[2em] justify-center w-16 h-16 bg-white rounded-full -start-4 ring-2 ring-project-primary">
                   <QrCode className="text-project-primary" size="32" />
                 </span>
                 <h3 className="font-bold leading-tight text-3xl text-project-primary">
