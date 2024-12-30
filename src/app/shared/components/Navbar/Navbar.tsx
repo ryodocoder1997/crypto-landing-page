@@ -9,7 +9,7 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
-} from "@/components/navigation-menu";
+} from "@/components/ui/navigation-menu";
 import { cn } from "@/public/lib/utils";
 import { NAVBAR_LINK_MENU } from "@/shared/constant/public";
 
@@ -17,10 +17,10 @@ import {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
-} from "@/components/hover-card";
+} from "@/components/ui/hover-card";
 import { IoCartOutline, IoSearchSharp } from "react-icons/io5";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
-import { Input } from "@/components/input";
+import { Input } from "@/components/ui/input";
 
 import { images } from "@/public/images";
 import "./Navbar.scss";

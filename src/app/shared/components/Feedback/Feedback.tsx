@@ -6,7 +6,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/carousel";
+} from "@/components/ui/carousel";
 import { images } from "@/public/images";
 import Autoplay from "embla-carousel-autoplay";
 

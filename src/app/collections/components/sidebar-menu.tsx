@@ -3,7 +3,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/accordion";
+} from "@/components/ui/accordion";
 import { cn } from "@/public/lib/utils";
 import Link from "next/link";
 import React from "react";

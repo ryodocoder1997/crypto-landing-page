@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { Input } from "@/components/input";
+import { Input } from "@/components/ui/input";
 import { images } from "@/public/images";
 import "./Footer.scss";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa6";
