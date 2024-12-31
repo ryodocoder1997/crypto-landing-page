@@ -23,5 +23,17 @@ export const images = {
     howItWork: `${path}/side-img-how-it-work.webp`,
     contact: `${path}/contact.webp`,
     home1: `${path}/home1.webp`,
-    home2: `${path}/home2.webp`
+    home2: `${path}/home2.webp`,
+    home3: `${path}/home3.webp`,
+    home4: `${path}/home4.webp`,
+    home5: `${path}/home5.webp`,
+    home6: `${path}/home6.webp`,
+    home7: `${path}/home7.webp`,
+    home8: `${path}/home8.webp`,
+    home9: `${path}/home9.webp`,
+    home10: `${path}/home10.webp`,
+    home11: `${path}/home11.webp`,
+    home12: `${path}/home12.webp`,
+    home13: `${path}/home13.webp`,
+    home14: `${path}/home14.webp`,
   };
