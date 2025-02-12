@@ -20,13 +20,13 @@ const Page = () => {
         <div className="max-w-2xl p-6 flex flex-col gap-[4em] bg-white/50 pt-[6em] items-center">
           {/* Corporate Catering in Sydney */}
           <div className="flex flex-col gap-8 text-center leading-7 px-4 items-center text-project-primary">
-            <div className="h-[.5rem] w-[6em] bg-[#bcce34]" />
+            <div className="h-[.5rem] w-[6em] bg-[#f8c307]" />
             <h1 className="text-5xl font-bold uppercase">About us</h1>
             <p className="text-lg">
               What do you get when you mix two dynamo sisters, crazy good
               Vietnamese cooking with a whole lot of love? The answer is Chao.
             </p>
-            <div className="h-[.5rem] w-[6em] bg-[#bcce34]" />
+            <div className="h-[.5rem] w-[6em] bg-[#f8c307]" />
           </div>
 
           <div className="text-black text-lg leading-7 flex flex-col gap-4">
@@ -35,11 +35,7 @@ const Page = () => {
               powerhouse duo, sisters Emma Nguyen of I Love Pho and Jessica
               Nguyen of La Sen Restaurant acclaim, Chao is on a mission to
               elevate all the exquisite flavours of{" "}
-              <Link
-                href="/collections"
-                target="_blank"
-                className={classes.link}
-              >
+              <Link href="/products" target="_blank" className={classes.link}>
                 {" "}
                 authentic Vietnamese cuisine{" "}
               </Link>{" "}

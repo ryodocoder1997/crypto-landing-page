@@ -1,11 +1,18 @@
 "use client";
 
-import Link from "next/link";
+import "./Footer.scss";
+
 import Image from "next/image";
+import Link from "next/link";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaTelegramPlane,
+  FaTwitter,
+} from "react-icons/fa";
+
 import { Input } from "@/components/ui/input";
 import { images } from "@/public/images";
-import "./Footer.scss";
-import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa6";
 
 export const Footer = () => {
   return (
@@ -15,7 +22,7 @@ export const Footer = () => {
         className="special-offer-container"
         style={{ backgroundImage: `url(${images.specialOffer})` }}
       >
-        <div className="h-[.5rem] w-[4.375em] bg-[#bcce34] mb-[1.5625rem]" />
+        <div className="h-[.5rem] w-[4.375em] bg-[#f8c307] mb-[1.5625rem]" />
         <h2 className="title">
           GET <strong>SPECIAL OFFERS</strong>
         </h2>
@@ -51,30 +58,33 @@ export const Footer = () => {
               />
             </div>
             <div className="info-col">
-              <h4 className="info-header">Menus</h4>
-              <Link className="info-link" href="/collections/chaos-lunch-box">
-                Individual Lunch Boxes
+              <h4 className="info-header">Products</h4>
+              <Link
+                className="info-link"
+                href="/products#Personal Financial Adisory"
+              >
+                Personal Financial Adisory
               </Link>
-              <Link className="info-link" href="/collections/tea-time-boxes">
-                Tea Time Boxes
-              </Link>
-              <Link className="info-link" href="/collections/chao-top-picks">
-                Chao&apos;s Top Picks
-              </Link>
-              <Link className="info-link" href="/collections/chaos-platters">
-                Chao&apos;s Platters
+              <Link className="info-link" href="/products#Portfolio Management">
+                Portfolio Management
               </Link>
               <Link
                 className="info-link"
-                href="/collections/funeral-and-wake-catering"
+                href="/products#Trading System Development"
               >
-                Funeral & Wake Catering
+                Trading System Development
               </Link>
-              <Link className="info-link" href="/collections/chaos-add-ons">
-                Add-Ons
+              <Link
+                className="info-link"
+                href="/products#Real Trading Account Analysis"
+              >
+                Real Trading Account Analysis
               </Link>
-              <Link className="info-link" href="/collections/drinks-desserts">
-                Drinks & Desserts
+              <Link
+                className="info-link"
+                href="/products#Financial Investment Courses"
+              >
+                Financial Investment Courses
               </Link>
             </div>
             <div className="info-col">
@@ -119,20 +129,36 @@ export const Footer = () => {
             <div className="info-col special">
               <div className="social-media-container">
                 <Link href="#" className="social-media">
-                  <FaTwitter />
+                  <div className="social-media-wrapper">
+                    <FaTelegramPlane fill="#000" />
+                  </div>
                 </Link>
                 <Link href="#" className="social-media">
-                  <FaFacebookF />
+                  <div className="social-media-wrapper">
+                    <Image
+                      alt="zalo-logo"
+                      src={images.zaloLogo}
+                      width={16}
+                      height={16}
+                    />
+                  </div>
                 </Link>
                 <Link href="#" className="social-media">
-                  <FaInstagram />
+                  <div className="social-media-wrapper">
+                    <FaTwitter fill="#000" />
+                  </div>
+                </Link>
+                <Link href="#" className="social-media">
+                  <div className="social-media-wrapper">
+                    <FaFacebookF fill="#000" />
+                  </div>
+                </Link>
+                <Link href="#" className="social-media">
+                  <div className="social-media-wrapper">
+                    <FaInstagram fill="#000" />
+                  </div>
                 </Link>
               </div>
-              <Link href="tel:1300112426" className="call-section">
-                ORDER NOW
-                <br />
-                1300&nbsp;11&nbsp;2426
-              </Link>
               <Link
                 href="mailto:hello@chaocatering.com.au"
                 className="footer-email"

@@ -21,7 +21,7 @@ const Page = () => {
         <div className="max-w-2xl p-6 flex flex-col gap-[8em] bg-white/50 pt-[6em]">
           {/* Corporate Catering in Sydney */}
           <div className="flex flex-col gap-8 text-center leading-7 px-4 items-center text-project-primary">
-            <div className="h-[.5rem] w-[6em] bg-[#bcce34]" />
+            <div className="h-[.5rem] w-[6em] bg-[#f8c307]" />
             <h1 className="text-5xl font-bold uppercase">
               Corporate Catering in Sydney
             </h1>
@@ -30,7 +30,7 @@ const Page = () => {
               Here&apos;s to celebrating the fantastic flavours of Vietnam, the
               Chao way.
             </p>
-            <div className="h-[.5rem] w-[6em] bg-[#bcce34]" />
+            <div className="h-[.5rem] w-[6em] bg-[#f8c307]" />
           </div>
 
           {/* Catering Services for Your Corporate Event */}
@@ -57,11 +57,7 @@ const Page = () => {
               </ul>
               <p className="leading-8">
                 Our authentic, delicious{" "}
-                <Link
-                  className={classes.link}
-                  href="/collections"
-                  target="_blank"
-                >
+                <Link className={classes.link} href="/products" target="_blank">
                   Vietnamese dishes
                 </Link>{" "}
                 are of restaurant quality and delivered straight to your door.

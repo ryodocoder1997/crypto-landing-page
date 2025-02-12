@@ -7,99 +7,81 @@ export const NAVBAR_LINK_MENU: MenuGroup[] = [
         items: []
     },
     {
-        name: "Menu",
-        url: '/collections',
+        name: "Products",
+        url: '/products',
         items: [
             {
-                url: '/collections#Individual Lunch Boxes',
-                name: 'Individual Lunch Boxes'
+                url: '/products#Personal Financial Adisory',
+                name: 'Personal Financial Adisory'
             },
             {
-                url: '/collections#Tea Time Boxes',
-                name: 'Tea Time Boxes'
+                url: '/products#Portfolio Management',
+                name: 'Portfolio Management'
             },
             {
-                url: "/collections#Chao's Top Picks",
-                name: 'Chao\'s Top Picks'
+                url: "/products#Trading System Development",
+                name: 'Trading System Development'
             },
             {
-                url: "/collections#Chao's Platters",
-                name: 'Chao\'s Platters'
+                url: "/products#Real Trading Account Analysis",
+                name: 'Real Trading Account Analysis'
             },
             {
-                url: '/collections#Funeral & Wake Catering',
-                name: 'Funeral & Wake Catering',
-            },
-            {
-                url: '/collections#Add -Ons',
-                name: 'Add-Ons'
-            },
-            {
-                url: '/collections#Drinks & Desserts',
-                name: 'Drinks & Desserts'
+                url: '/products#Financial Investment Courses',
+                name: 'Financial Investment Courses',
             }
         ]
     },
     {
-        name: "Corporate",
-        url: '/corporate',
-        items: []
-    },
-    {
-        name: "Events",
-        url: '/events',
+        name: "Client Accounts",
+        url: '/accounts',
         items: [
             {
-                url: '/events/happy-new-year',
-                name: 'Happy New Year'
+                url: '/accounts/happy-new-year',
+                name: 'Account: 0 - 1,000 USD'
             },
             {
-                url: '/events/international-women-day',
-                name: 'International Women’s Day'
+                url: '/accounts/international-women-day',
+                name: 'Account: 1,000 - 5,000 USD'
             },
             {
-                url: '/events/easter-catering',
-                name: 'Easter Catering'
-            },
-            {
-                url: '/events/melbourne-cup',
-                name: 'Melbourne Cup'
-            },
-            {
-                url: '/events/merry-christmas',
-                name: 'Merry Christmas'
-            },
-            {
-                url: '/events/corporate-catering',
-                name: 'Corporate Events'
-            },
-            {
-                url: '/events/event-the-wake',
-                name: 'The Wake'
-            },
+                url: '/accounts/easter-catering',
+                name: 'Account: ≥ 5,000 USD'
+            }
         ]
     },
     {
-        name: "About us",
+        name: "News & Events",
         url: '/about-us',
         items: [
             {
                 url: '/about-us/our-services',
-                name: 'Our Services'
+                name: 'Events'
             },
             {
                 url: '/about-us/how-it-works',
-                name: 'How It Works'
+                name: 'Market News'
+            },
+        ]
+    },
+    {
+        name: "Community",
+        url: '/about-us',
+        items: [
+            {
+                url: '/about-us/our-services',
+                name: 'Market Forecast'
             },
             {
-                url: '/about-us/faqs',
-                name: 'FAQs'
+                url: '/about-us/how-it-works',
+                name: 'Financial Trading Research'
             },
         ]
     },
     {
         name: "Contact",
         url: '/contact',
-        items: []
+        items: [
+        ]
     }
 ]

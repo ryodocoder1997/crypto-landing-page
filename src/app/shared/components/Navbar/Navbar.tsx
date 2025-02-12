@@ -19,13 +19,17 @@ import {
   HoverCardTrigger,
 } from "@/components/ui/hover-card";
 import { IoCartOutline, IoSearchSharp } from "react-icons/io5";
-import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaTelegramPlane,
+  FaTwitter,
+} from "react-icons/fa";
 import { Input } from "@/components/ui/input";
 
 import { images } from "@/public/images";
-import "./Navbar.scss";
-
 import { useRouter } from "next/navigation";
+import "./Navbar.scss";
 
 const MENU_DROPDOWN_OPEN_DELAY = 50;
 const MENU_DROPDOWN_CLOSE_DELAY = 100;
@@ -125,7 +129,7 @@ export const Navbar = () => {
 
           {/* ----- MENU UTILITIES ----- */}
           {/* --- SEARCH BAR --- */}
-          <div className="nav-menu-header-utilities-container">
+          <ul className="nav-menu-header-utilities-container">
             <NavigationMenuItem className="nav-menu-header-utilities">
               <HoverCard
                 openDelay={MENU_DROPDOWN_OPEN_DELAY}
@@ -139,38 +143,48 @@ export const Navbar = () => {
                 </HoverCardContent>
               </HoverCard>
             </NavigationMenuItem>
-          </div>
-
-          {/* --- CALL SECTION --- */}
-          <div className="nav-menu-header-utilities-container">
-            <NavigationMenuItem className="nav-menu-header-utilities">
-              <Link href="tel:1300112426" className="call-section">
-                ORDER NOW
-                <br />
-                1300&nbsp;11&nbsp;2426
-              </Link>
-            </NavigationMenuItem>
-          </div>
+          </ul>
 
           {/* --- SOCIAL MEDIA ---  */}
-          <div className="nav-menu-header-utilities-container">
+          <ul className="nav-menu-header-utilities-container">
             <NavigationMenuItem className="nav-menu-header-utilities">
               <div className="social-media-container">
                 <Link href="#" className="social-media">
-                  <FaTwitter fill="#000" />
+                  <div className="social-media-wrapper">
+                    <FaTelegramPlane fill="#000" />
+                  </div>
                 </Link>
                 <Link href="#" className="social-media">
-                  <FaFacebookF fill="#000" />
+                  <div className="social-media-wrapper">
+                    <Image
+                      alt="zalo-logo"
+                      src={images.zaloLogo}
+                      width={16}
+                      height={16}
+                    />
+                  </div>
                 </Link>
                 <Link href="#" className="social-media">
-                  <FaInstagram fill="#000" />
+                  <div className="social-media-wrapper">
+                    <FaTwitter fill="#000" />
+                  </div>
+                </Link>
+                <Link href="#" className="social-media">
+                  <div className="social-media-wrapper">
+                    <FaFacebookF fill="#000" />
+                  </div>
+                </Link>
+                <Link href="#" className="social-media">
+                  <div className="social-media-wrapper">
+                    <FaInstagram fill="#000" />
+                  </div>
                 </Link>
               </div>
             </NavigationMenuItem>
-          </div>
+          </ul>
 
           {/* --- CART --- */}
-          <div className="nav-menu-header-utilities-container">
+          <ul className="nav-menu-header-utilities-container">
             <NavigationMenuItem className="nav-menu-header-utilities">
               <div className="cart-container">
                 <HoverCard
@@ -189,7 +203,7 @@ export const Navbar = () => {
                 </HoverCard>
               </div>
             </NavigationMenuItem>
-          </div>
+          </ul>
         </NavigationMenuList>
       </NavigationMenu>
     </div>

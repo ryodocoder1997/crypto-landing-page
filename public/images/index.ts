@@ -4,6 +4,7 @@ const path = "/images/shared"
 
 export const images = {
     logo: `${path}/logo_main.avif`,
+    zaloLogo: `${path}/zalo-logo.svg`,
     stickyLogo: `${path}/logo-small-white.webp`,
     product: `${path}/product.jpg`,
     corporate: `${path}/corporate1.webp`,

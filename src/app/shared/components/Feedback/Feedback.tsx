@@ -32,7 +32,7 @@ const Feedback = () => {
             className="feedback-content-container"
             style={{ backgroundImage: `url(${images.feedback1})` }}
           >
-            <div className="h-[.5rem] w-[4.375em] bg-[#bcce34] mb-[1.5625rem]" />
+            <div className="h-[.5rem] w-[4.375em] bg-[#f8c307] mb-[1.5625rem]" />
             <div className="feedback-content animate-fade-down animate-duration-[1000ms]">
               <div className="feedback-slogun">
                 “Thank you for your amazing customer service and for delivering
@@ -48,7 +48,7 @@ const Feedback = () => {
               </div>
               <div className="feedback-author">David Tran</div>
             </div>
-            <div className="h-[.5rem] w-[4.375em] bg-[#bcce34] mb-[1.5625rem]" />
+            <div className="h-[.5rem] w-[4.375em] bg-[#f8c307] mb-[1.5625rem]" />
           </div>
         </CarouselItem>
         <CarouselItem>
@@ -56,7 +56,7 @@ const Feedback = () => {
             className="feedback-content-container"
             style={{ backgroundImage: `url(${images.feedback2})` }}
           >
-            <div className="h-[.5rem] w-[4.375em] bg-[#bcce34] mb-[1.5625rem]" />
+            <div className="h-[.5rem] w-[4.375em] bg-[#f8c307] mb-[1.5625rem]" />
             <div className="feedback-content animate-fade-down animate-duration-[1000ms] animate-delay-[5000ms]">
               <div className="feedback-slogun">
                 “Thank you for your amazing customer service and for delivering
@@ -72,7 +72,7 @@ const Feedback = () => {
               </div>
               <div className="feedback-author">David Tran</div>
             </div>
-            <div className="h-[.5rem] w-[4.375em] bg-[#bcce34] mb-[1.5625rem]" />
+            <div className="h-[.5rem] w-[4.375em] bg-[#f8c307] mb-[1.5625rem]" />
           </div>
         </CarouselItem>
         <CarouselItem>
@@ -80,7 +80,7 @@ const Feedback = () => {
             className="feedback-content-container"
             style={{ backgroundImage: `url(${images.feedback3})` }}
           >
-            <div className="h-[.5rem] w-[4.375em] bg-[#bcce34] mb-[1.5625rem]" />
+            <div className="h-[.5rem] w-[4.375em] bg-[#f8c307] mb-[1.5625rem]" />
             <div className="feedback-content animate-fade-down animate-duration-[1000ms] animate-delay-[9000ms]">
               <div className="feedback-slogun">
                 “Thank you for your amazing customer service and for delivering
@@ -96,7 +96,7 @@ const Feedback = () => {
               </div>
               <div className="feedback-author">David Tran</div>
             </div>
-            <div className="h-[.5rem] w-[4.375em] bg-[#bcce34] mb-[1.5625rem]" />
+            <div className="h-[.5rem] w-[4.375em] bg-[#f8c307] mb-[1.5625rem]" />
           </div>
         </CarouselItem>
       </CarouselContent>

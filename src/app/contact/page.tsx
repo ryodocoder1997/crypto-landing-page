@@ -17,7 +17,7 @@ const Page = () => {
           <div className="flex flex-col gap-[4em] bg-white/60">
             {/* Header */}
             <div className="flex flex-col gap-8 text-center leading-7 px-4 items-center text-project-primary">
-              <div className="h-[.5rem] w-[6em] bg-[#bcce34]" />
+              <div className="h-[.5rem] w-[6em] bg-[#f8c307]" />
               <h1 className="text-5xl font-bold uppercase">Contact us</h1>
               <p className="text-lg text-black">
                 Get a FREE customised quote for your next corporate event or
