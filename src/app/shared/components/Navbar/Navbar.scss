@@ -131,14 +131,18 @@
 
         .social-media-container {
           display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
           gap: 0.5rem;
 
           .social-media {
-            padding: 0.5rem;
+            padding: 0.6rem 0.2rem;
             border-radius: 50%;
             background-color: #ffffff80;
             transition: background-color 0.3s;
-
+            flex: 0 0 calc(33.33% - 0.5rem);
+            display: flex;
+            justify-content: center;
             &:hover {
               background-color: #fff;
             }

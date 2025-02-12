@@ -18,8 +18,14 @@ import {
   HoverCardContent,
   HoverCardTrigger,
 } from "@/components/ui/hover-card";
+import { SiZalo } from "react-icons/si";
 import { IoCartOutline, IoSearchSharp } from "react-icons/io5";
-import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaFacebookMessenger,
+  FaTelegramPlane,
+  FaTiktok,
+} from "react-icons/fa";
 import { Input } from "@/components/ui/input";
 
 import { images } from "@/public/images";
@@ -141,29 +147,24 @@ export const Navbar = () => {
             </NavigationMenuItem>
           </div>
 
-          {/* --- CALL SECTION --- */}
-          <div className="nav-menu-header-utilities-container">
-            <NavigationMenuItem className="nav-menu-header-utilities">
-              <Link href="tel:1300112426" className="call-section">
-                ORDER NOW
-                <br />
-                1300&nbsp;11&nbsp;2426
-              </Link>
-            </NavigationMenuItem>
-          </div>
-
           {/* --- SOCIAL MEDIA ---  */}
           <div className="nav-menu-header-utilities-container">
             <NavigationMenuItem className="nav-menu-header-utilities">
               <div className="social-media-container">
                 <Link href="#" className="social-media">
-                  <FaTwitter fill="#000" />
+                  <FaTelegramPlane fill="#000" />
+                </Link>
+                <Link href="#" className="social-media">
+                  <SiZalo fill="#000" />
+                </Link>
+                <Link href="#" className="social-media">
+                  <FaFacebookMessenger fill="#000" />
                 </Link>
                 <Link href="#" className="social-media">
                   <FaFacebookF fill="#000" />
                 </Link>
                 <Link href="#" className="social-media">
-                  <FaInstagram fill="#000" />
+                  <FaTiktok fill="#000" />
                 </Link>
               </div>
             </NavigationMenuItem>
