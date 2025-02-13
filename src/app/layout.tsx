@@ -7,7 +7,7 @@ import { ToastProvider } from "@/components/ui/toast";
 
 const assistant = Assistant({
   subsets: ["latin"], // Specify the character subsets
-  weight: ["200", "800"], // Specify font weights to include
+  weight: ["200", "300", "400", "600", "800"], // Specify font weights to include
   display: "swap", // Use "swap" to reduce layout shift
   fallback: ["sans-serif"],
 });

@@ -37,29 +37,29 @@ export const NAVBAR_LINK_MENU: MenuGroup[] = [
         url: '/accounts',
         items: [
             {
-                url: '/accounts/happy-new-year',
+                url: '/accounts/beginner',
                 name: 'Account: 0 - 1,000 USD'
             },
             {
-                url: '/accounts/international-women-day',
+                url: '/accounts/standard',
                 name: 'Account: 1,000 - 5,000 USD'
             },
             {
-                url: '/accounts/easter-catering',
+                url: '/accounts/premium',
                 name: 'Account: ≥ 5,000 USD'
             }
         ]
     },
     {
         name: "News & Events",
-        url: '/about-us',
+        url: '/news-events',
         items: [
             {
-                url: '/about-us/our-services',
+                url: '/news-events/events',
                 name: 'Events'
             },
             {
-                url: '/about-us/how-it-works',
+                url: '/news-events/news',
                 name: 'Market News'
             },
         ]
