@@ -22,7 +22,7 @@ export const images = {
     feedback3: `${path}/feedback3.webp`,
     aboutUs: `${path}/about_us1.jpg`,
     howItWork: `${path}/side-img-how-it-work.webp`,
-    contact: `${path}/contact.webp`,
+    contact: `${path}/stock.webp`,
     home1: `${path}/home1.webp`,
     home2: `${path}/home2.webp`,
     home3: `${path}/home3.webp`,

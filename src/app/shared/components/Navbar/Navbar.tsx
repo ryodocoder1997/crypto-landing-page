@@ -57,7 +57,7 @@ export const Navbar = () => {
   return (
     <div
       className={cn(
-        "animate-fade-down animate-duration-[1000ms] flex w-full justify-center pt-3 items-center navbar-container",
+        "animate-fade-down animate-duration-[1000ms] flex w-full h-fit py-4 justify-center items-center navbar-container",
         isSticky && "sticky"
       )}
     >

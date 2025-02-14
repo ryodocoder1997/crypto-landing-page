@@ -66,14 +66,14 @@ export const NAVBAR_LINK_MENU: MenuGroup[] = [
     },
     {
         name: "Community",
-        url: '/about-us',
+        url: '/community',
         items: [
             {
-                url: '/about-us/our-services',
+                url: '/community/market-forecast',
                 name: 'Market Forecast'
             },
             {
-                url: '/about-us/how-it-works',
+                url: '/community/financial-trading-research',
                 name: 'Financial Trading Research'
             },
         ]
@@ -85,3 +85,5 @@ export const NAVBAR_LINK_MENU: MenuGroup[] = [
         ]
     }
 ]
+
+export const locales = ["en","vi"];

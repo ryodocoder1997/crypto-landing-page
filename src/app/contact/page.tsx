@@ -9,12 +9,12 @@ const Page = () => {
       <NavbarIndicator />
       <div
         className={
-          "relative h-fit min-h-lvh text-white bg-contain bg-no-repeat flex justify-end px-[24em] "
+          "relative h-fit min-h-lvh text-white bg-cover bg-no-repeat flex justify-end px-[24em] "
         }
         style={{ backgroundImage: `url(${images.contact})` }}
       >
         <div className="max-w-2xl p-6  bg-gray-100/30 pt-[6em]">
-          <div className="flex flex-col gap-[4em] bg-white/60">
+          <div className="flex flex-col gap-[4em] bg-white/60 py-8">
             {/* Header */}
             <div className="flex flex-col gap-8 text-center leading-7 px-4 items-center text-project-primary">
               <div className="h-[.5rem] w-[6em] bg-[#f8c307]" />

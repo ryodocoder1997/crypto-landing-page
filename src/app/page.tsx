@@ -105,7 +105,7 @@ export default function Home() {
             className="w-full bg-right bg-contain bg-no-repeat pl-[1rem] pr-[1rem]"
             style={{ backgroundImage: `url(${images.home2})` }}
           >
-            <div className="w-1/2 flex flex-col justify-center items-center pt-[3.75rem] pb-[3.75rem]">
+            <div className="w-1/2 bg-white/50 flex flex-col justify-center items-center pt-[3.75rem] pb-[3.75rem]">
               <div className="h-[.5rem] w-[4.375em] mt-[2.5rem] bg-[#f8c307] mb-[3.125rem]" />
               <h1 className="text-[2.75rem] leading-[3.75rem] font-normal mb-[0.625rem] text-project-primary uppercase">
                 A New Way of <strong>TRADING</strong>
@@ -198,7 +198,7 @@ export default function Home() {
             className="w-full bg-left bg-contain bg-no-repeat pl-[1rem] pr-[1rem] flex justify-end"
             style={{ backgroundImage: `url(${images.home2})` }}
           >
-            <div className="w-1/2 flex flex-col justify-center items-center pt-[3.75rem] pb-[3.75rem]">
+            <div className="w-1/2 flex flex-col bg-white/50 justify-center items-center pt-[3.75rem] pb-[3.75rem]">
               <div className="h-[.5rem] w-[4.375em] mt-[2.5rem] bg-[#f8c307] mb-[3.125rem]" />
               <h1 className="text-[2.75rem] leading-[3.75rem] font-normal mb-[0.625rem] text-project-primary uppercase">
                 WHY <strong>VIETALGOTRADE</strong>
