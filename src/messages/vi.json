@@ -1,7 +1,83 @@
 {
-    "rootLayout": {
-        "title-carousel": "Chào mừng đến với VietAlgoTrade",
-        "description-carousel": "ĐẦU TƯ CHỈ BẰNG TIỀN TIẾT KIỆM",
-        "cta-carousel": "Đặt Ngay"
+  "rootLayout": {
+    "title-carousel": "Welcome to VietAlgoTrade",
+    "description-carousel": "ĐẦU TƯ CHỈ BẰNG TIỀN TIẾT KIỆM",
+    "cta-carousel": "Đặt Ngay",
+    "title-carousel-2": "Welcome to VietAlgoTrade",
+    "description-carousel-2": "RỦI RO LÀ KHI BẠN KHÔNG BIẾT MÌNH ĐANG LÀM GÌ",
+    "cta-carousel-2": "Đặt Ngay",
+    "title-carousel-3": "Welcome to VietAlgoTrade",
+    "description-carousel-3": "ĐẦU TƯ LÀ TRÒ CHƠI XÁC SUẤT THỐNG KÊ",
+    "cta-carousel-3": "Đặt Ngay",
+    "new-way-of-trading": {
+      "title": "A New Way of <strong>TRADING</strong>",
+      "description": "VietAlgoTrade cung cấp nhiều công cụ hữu dụng để giúp nhà đầu tư hiểu được rủi ro của các sản phẩm tài chính mà mình giao dịch, từ đó đề ra từng chiến lược quản lý vốn cụ thể. Việc sử dụng thuật toán được phát triển riêng, chúng tôi tin rằng có thể giúp nhà đầu tư tiết kiệm trước nhất là thời gian và sau đó là chi phí cơ hội từ thị trường.",
+      "cta": "Giao Dịch Ngay"
+    },
+    "why-viet-algo-trade": {
+      "description": "Chúng tôi là những nhà giao dịch tài chính am hiểu về các sản phẩm mà mình giao dịch. Trải qua hơn 5 năm tham gia thị trường, từ đầu tư quỹ Dragon Capital, chứng khoán Việt Nam, đến những kênh rủi ro cao hơn như thị trường tiền điện tử (Cryptocurrency) hay thị trường ngoại hối (Forex), chúng tôi tin rằng mình có thể giúp nhà đầu tư đạt được mức sinh lời kỳ vọng cao hơn lãi suất ngân hàng, hay lợi nhuận sau thuế của các doanh nghiệp với mức rủi ro dựa vào thuật toán có thể tính toán được."
+    },
+    "viet-algo-trade-products": {
+      "personal-financial-consulting": {
+        "title": "Tư vấn tài chính cá nhân",
+        "description": "Tùy theo khẩu vị của khách hàng, chúng tôi sẽ tư vấn các gói đầu tư để phù hợp với tỷ suất lợi nhuận kỳ vọng và rủi ro mong muốn."
+      },
+      "portfolio-managing": {
+        "title": "Quản trị danh mục đầu tư",
+        "description": "We will build sample investment portfolios that have been tested in the real market, allowing clients to make informed decisions about their investment trust based on their investment capital. We only manage the trading accounts and will never ask clients to provide exchange accounts or bank accounts; clients will have full control over their own cash flow."
+      },
+      "trading-system-building": {
+        "title": "Xây dựng hệ thống giao dịch",
+        "description": "Chúng tôi sẽ xây dựng các danh mục đầu tư mẫu và đã được kiểm chứng trên thị trường thực tế để khách hàng dựa vào số vốn đầu tư của mình có thể đưa ra quyết định ủy thác đầu tư. Chúng tôi chỉ quản lý tài khoản giao dịch và không bao giờ yêu cầu khách hàng cung cấp tài khoản sàn hay tài khoản ngân hàng, khách hàng sẽ là người kiểm soát dòng tiền của chính mình."
+      },
+      "real-trading-account-analysing": {
+        "title": "Phân tích tài khoản giao dịch thực tế",
+        "description": "Chúng tôi giúp khách hàng kiểm tra một tài khoản giao dịch thực tế bất kỳ để xem xét tài khoản này có thật sự mang lại lợi nhuận trong quá khứ, đánh giá khả năng sinh lời và mức độ rủi ro trong tương lai. Hiện nay, tùy vào thị trường và nền tảng giao dịch, một số cá nhân sẽ liên kết với sàn nhằm tạo tài khoản giả hoặc dùng các thủ thuật khác nhau để đánh lừa nhà đầu tư."
+      },
+      "financial-investment-courses": {
+        "title": "Khóa học đầu tư tài chính",
+        "description": "Có nhiều khóa học thuộc các chuyên đề khác nhau tại VietAlgoTrade, từ Lý Thuyết Xác Suất Thống Kê, Cấu Trúc Thị Trường Tài Chính đến Xây Dựng Danh Mục Đầu Tư, Tâm Lý Giao Dịch, Thuật Toán Đầu Tư hay Bot Giao Dịch."
+      }
     }
+  },
+  "navbar": {
+    "root-0": {
+      "name": "Trang Chủ"
+    },
+    "root-1": {
+      "name": "Sản Phẩm",
+      "item-list": {
+        "item-0": "Tư Vấn Tài Chính Cá Nhân",
+        "item-1": "Quản Trị Danh Mục Đầu Tư",
+        "item-2": "Xây Dựng Hệ Thống Giao Dịch",
+        "item-3": "Phân Tích Tài Khoản Giao Dịch Thực Tế",
+        "item-4": "Khóa Học Đầu Tư Tài Chính"
+      }
+    },
+    "root-2": {
+      "name": "Tài Khoản Khách Hàng",
+      "item-list": {
+        "item-0": "Tài khoản: 0 - 1,000 USD",
+        "item-1": "Tài khoản: 1,000 - 5,000 USD",
+        "item-2": "Tài khoản: >= 5000 USD"
+      }
+    },
+    "root-3": {
+      "name": "Tin Tức & Sự Kiện",
+      "item-list": {
+        "item-0": "Sự Kiện",
+        "item-1": "Tin Tức"
+      }
+    },
+    "root-4": {
+      "name": "Cộng Đồng",
+      "item-list": {
+        "item-0": "Dự báo thị trường",
+        "item-1": "Nghiên cứu giao dịch tài chính"
+      }
+    },
+    "root-5": {
+      "name": "Liên Hệ"
+    }
+  }
 }

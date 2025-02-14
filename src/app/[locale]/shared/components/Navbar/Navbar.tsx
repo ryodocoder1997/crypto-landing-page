@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import Image from "next/image";
 import {
   NavigationMenu,
@@ -30,6 +30,7 @@ import { Input } from "@/components/ui/input";
 import { images } from "@/public/images";
 import { useRouter } from "next/navigation";
 import "./Navbar.scss";
+import { useTranslations } from "next-intl";
 
 const MENU_DROPDOWN_OPEN_DELAY = 50;
 const MENU_DROPDOWN_CLOSE_DELAY = 100;
@@ -37,6 +38,7 @@ const MENU_DROPDOWN_CLOSE_DELAY = 100;
 export const Navbar = () => {
   const [isSticky, setIsSticky] = useState(false);
   const router = useRouter();
+  const t = useTranslations("navbar");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -78,7 +80,7 @@ export const Navbar = () => {
       <NavigationMenu>
         <NavigationMenuList className="navbar-menu-list">
           {/* ----- MENU STANDALONE ----- */}
-          {NAVBAR_LINK_MENU.map((menu) => (
+          {NAVBAR_LINK_MENU.map((menu, idx) => (
             <div className="nav-menu-header-container" key={menu.name}>
               <NavigationMenuItem className="nav-menu-header">
                 {!menu.items.length && (
@@ -89,7 +91,7 @@ export const Navbar = () => {
                       "nav-menu-content"
                     )}
                   >
-                    {menu.name}
+                    {t(`root-${idx}.name`)}
                   </Link>
                 )}
 
@@ -104,19 +106,19 @@ export const Navbar = () => {
                         onClick={() => router.push(menu.url ?? "#")}
                         className="nav-menu-content"
                       >
-                        {menu.name}
+                        {t(`root-${idx}.name`)}
                       </NavigationMenuTrigger>
                     </HoverCardTrigger>
 
                     <HoverCardContent className="nav-menu-dropdown-content">
-                      {menu.items.map((item) => (
+                      {menu.items.map((item, childIdx) => (
                         <Link
                           key={`${menu.name}__${item.name}`}
                           className="flex h-full w-full select-none flex-col justify-end no-underline outline-none focus:shadow-md nav-menu-item-link"
                           href={item.url}
                         >
                           <span className="nav-menu-item-link-content">
-                            {item.name}
+                            {t(`root-${idx}.item-list.item-${childIdx}`)}
                           </span>
                         </Link>
                       ))}

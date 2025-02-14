@@ -1,7 +1,83 @@
 {
-    "rootLayout": {
-        "title-carousel": "Welcome to VietAlgoTrade",
-        "description-carousel": "INVEST WITH SAVINGS ONLY",
-        "cta-carousel": "Order Now"
+  "rootLayout": {
+    "title-carousel": "Welcome to VietAlgoTrade",
+    "description-carousel": "INVEST WITH SAVINGS ONLY",
+    "cta-carousel": "Book Now",
+    "title-carousel-2": "Welcome to VietAlgoTrade",
+    "description-carousel-2": "RISK IS WHEN YOU DON'T KNOW WHAT YOU'RE DOING",
+    "cta-carousel-2": "Book Now",
+    "title-carousel-3": "Welcome to VietAlgoTrade",
+    "description-carousel-3": "INVESTMENT IS A GAME OF STATISTICAL PROBABILITIES",
+    "cta-carousel-3": "Book Now",
+    "new-way-of-trading": {
+      "title": "A New Way of <strong>TRADING</strong>",
+      "description": " VietAlgoTrade provides many useful tools to help investors understand the risks of the financial products they trade, allowing them to develop specific capital management strategies. By utilising a specially developed algorithm, we believe that we can help investors save primarily time and subsequently the opportunity costs from the market.",
+      "cta": "Trade Now"
+    },
+    "why-viet-algo-trade": {
+      "description": "We are financial traders with a deep understanding of the products we trade. With over 5 years of experience in the market, from investing in Dragon Capital and the Vietnamese stock market to higher-risk channels such as cryptocurrency and forex markets, we believe we can help investors achieve returns that exceed bank interest rates or after-tax profits of companies, with a level of risk that can be calculated based on algorithms."
+    },
+    "viet-algo-trade-products": {
+      "personal-financial-consulting": {
+        "title": "Personal Financial Consulting",
+        "description": "Depending on the client's risk appetite, we will advise on investment packages that align with their expected return and desired risk level."
+      },
+      "portfolio-managing": {
+        "title": "Portfolio Managing",
+        "description": "We will build sample investment portfolios that have been tested in the real market, allowing clients to make informed decisions about their investment trust based on their investment capital. We only manage the trading accounts and will never ask clients to provide exchange accounts or bank accounts; clients will have full control over their own cash flow."
+      },
+      "trading-system-building": {
+        "title": "Trading System Building",
+        "description": "With our proprietary data analysis tools, we can evaluate whether our clients' trading portfolios are effective. We will then propose specific solution packages to improve our clients' trading results."
+      },
+      "real-trading-account-analysing": {
+        "title": "Real Trading Account Analysing",
+        "description": "We assist clients in verifying any real trading account to assess whether it has truly generated profits in the past, evaluate its profitability potential, and determine the level of risk for the future. Currently, depending on the market and trading platform, some individuals may link with exchanges to create fake accounts or use various tricks to deceive investors."
+      },
+      "financial-investment-courses": {
+        "title": "Financial Investment Courses",
+        "description": "There are many courses on various topics at VietAlgoTrade, ranging from Probability and Statistics Theory, Financial Market Structure, to Portfolio Construction, Trading Psychology, Investment Algorithms, and Trading Bots."
+      }
     }
+  },
+  "navbar": {
+    "root-0": {
+      "name": "Home"
+    },
+    "root-1": {
+      "name": "Products",
+      "item-list": {
+        "item-0": "Personal Financial Advisory",
+        "item-1": "Portfolio Management",
+        "item-2": "Trading System Development",
+        "item-3": "Real Trading Account Analysis",
+        "item-4": "Financial Investment Courses"
+      }
+    },
+    "root-2": {
+      "name": "Client Accounts",
+      "item-list": {
+        "item-0": "Account: 0 - 1,000 USD",
+        "item-1": "Account: 1,000 - 5,000 USD",
+        "item-2": "Account: >= 5,000 USD"
+      }
+    },
+    "root-3": {
+      "name": "News & Events",
+      "item-list": {
+        "item-0": "Events",
+        "item-1": "Market news"
+      }
+    },
+    "root-4": {
+      "name": "Community",
+      "item-list": {
+        "item-0": "Market Forecasts",
+        "item-1": "Financial Trading Research"
+      }
+    },
+    "root-5": {
+      "name": "Contact"
+    }
+  }
 }

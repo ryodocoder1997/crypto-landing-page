@@ -23,14 +23,15 @@ export default async function RootLayout({
   children: React.ReactNode;
   params: { locale: string };
 }>) {
+  const { locale } = await params;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  if (!routing.locales.includes(params.locale as any)) {
+  if (!routing.locales.includes(locale as any)) {
     notFound();
   }
   const messages = await getMessages();
 
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body>
         <NextIntlClientProvider messages={messages}>
           <ToastProvider>
