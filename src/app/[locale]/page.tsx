@@ -12,8 +12,11 @@ import { images } from "@/public/images";
 import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { useTranslations } from "next-intl";
 
 export default function Home() {
+  const t = useTranslations("rootLayout");
+
   return (
     <>
       <Carousel
@@ -36,17 +39,17 @@ export default function Home() {
             >
               <div className="flex flex-col justify-center items-center animate-fade-down animate-duration-[1000ms]">
                 <div className="text-center text-[5.625rem] uppercase font-extrabold leading-[4.375rem] text-white">
-                  Welcome to VietAlgoTrade
+                  {t("title-carousel")}
                 </div>
                 <div className="h-[.5rem] w-[4.375em] mt-[2.5rem] bg-[#f8c307] mb-[1.5625rem]" />
                 <p className="text-[1.375rem] leading-[1.625rem] mt-[1rem] mb-[2.5rem] text-white">
-                  INVEST WITH SAVINGS ONLY
+                  {t("description-carousel")}
                 </p>
                 <Link
                   href="/events/happy-new-year"
                   className="flex items-center justify-center bg-project-primary text-white uppercase rounded-full w-[5.0625rem] h-[5rem] px-5 font-bold text-center hover:text-[#333] transition-colors duration-300"
                 >
-                  Order Now
+                  {t("cta-carousel")}
                 </Link>
               </div>
             </div>
