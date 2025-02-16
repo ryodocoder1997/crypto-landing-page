@@ -1,9 +1,11 @@
+"use client";
+
 import { Input } from "@/components/ui/input";
 import { images } from "@/public/images";
 import NavbarIndicator from "@/shared/components/Navbar/NavbarIndicator";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { redirect } from "next/navigation";
+import { redirect, useParams } from "next/navigation";
 import React from "react";
 
 import "./page.scss";
@@ -70,9 +72,9 @@ const items = [
   },
 ];
 
-const Page = ({ params }) => {
+const Page = () => {
   const t = useTranslations("clientAccounts");
-  const { accountType } = params;
+  const { accountType } = useParams();
 
   const data = items.find((item) => item.key === accountType);
 

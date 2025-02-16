@@ -85,8 +85,8 @@ const classes = {
   contentHover: "hover:text-project cursor-pointer",
 };
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Page = async ({ params }) => {
+ 
+const Page = async () => {
   // Get current type
   // const { type } = await params;
 
