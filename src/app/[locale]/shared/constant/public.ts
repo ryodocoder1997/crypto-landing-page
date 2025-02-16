@@ -37,15 +37,15 @@ export const NAVBAR_LINK_MENU: MenuGroup[] = [
         url: '/accounts',
         items: [
             {
-                url: '/accounts/beginner',
+                url: '/accounts/type1',
                 name: 'Account: 0 - 1,000 USD'
             },
             {
-                url: '/accounts/standard',
+                url: '/accounts/type2',
                 name: 'Account: 1,000 - 5,000 USD'
             },
             {
-                url: '/accounts/premium',
+                url: '/accounts/type3',
                 name: 'Account: ≥ 5,000 USD'
             }
         ]
@@ -86,4 +86,4 @@ export const NAVBAR_LINK_MENU: MenuGroup[] = [
     }
 ]
 
-export const locales = ["en","vi"];
+export const locales = ["en", "vi"];

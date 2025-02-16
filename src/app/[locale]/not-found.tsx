@@ -1,3 +1,3 @@
 export default function GlobalNotFound() {
-  return <div>Dell co</div>;
+  return <div>404 Not Found</div>;
 }

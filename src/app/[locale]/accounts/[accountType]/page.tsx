@@ -1,12 +1,15 @@
+import { Input } from "@/components/ui/input";
 import { images } from "@/public/images";
 import NavbarIndicator from "@/shared/components/Navbar/NavbarIndicator";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { redirect } from "next/navigation";
 import React from "react";
 
+import "./page.scss";
 const items = [
   {
-    key: "beginner",
+    key: "type1",
     type: "Tài khoản: 0 - 1,000 USD",
     account: {
       name: "Nguyen Van A",
@@ -26,7 +29,7 @@ const items = [
     src: images.home9,
   },
   {
-    key: "standard",
+    key: "type2",
     type: "Tài khoản: 1,000 - 5,000 USD",
     account: {
       name: "Nguyen Van B",
@@ -46,7 +49,7 @@ const items = [
     src: images.home10,
   },
   {
-    key: "premium",
+    key: "type3",
     type: "Tài khoản: >= 5000 USD",
     account: {
       name: "Nguyen Van C",
@@ -67,8 +70,10 @@ const items = [
   },
 ];
 
-const Page = async ({ params }) => {
-  const { accountType } = await params;
+const Page = ({ params }) => {
+  const t = useTranslations("clientAccounts");
+  const { accountType } = params;
+
   const data = items.find((item) => item.key === accountType);
 
   if (!data) {
@@ -101,23 +106,30 @@ const Page = async ({ params }) => {
           })} USD)`}</h1>
           <div className="flex items-center mt-4">
             <p className=" font-semibold pr-2 text-2xl">
-              {data.account.openDate}
+              {t("details.accountOpeningDate")}: {data.account.openDate}
             </p>
             <p className="border-l-black border-l pl-2 h-fit text-base font-light">
               {data.account.tradingMarket}
             </p>
           </div>
           <ul className="mt-4 list-disc list-inside font-light">
-            <li>Broker: {data.account.broker}</li>
             <li>
-              Expected Monthly Profit:{" "}
+              {t("details.broker")}: {data.account.broker}
+            </li>
+            <li>
+              {t("details.expectedMonthlyProfit")}:{" "}
               {`${data.account.expectedMonthlyProfit.min}% - ${data.account.expectedMonthlyProfit.max}%`}
             </li>
             <li>
-              Maximum Drawdown:{" "}
+              {t("details.maximumDrawdown")}:{" "}
               {`${data.account.maximumDrawdown.min}% - ${data.account.maximumDrawdown.max}%`}
             </li>
           </ul>
+          <Input
+            type="submit"
+            value={t("details.contactForConsultation")}
+            className="form-submit-btn"
+          />
         </div>
       </div>
     </div>

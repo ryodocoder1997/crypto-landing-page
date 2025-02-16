@@ -2,8 +2,10 @@ import { images } from "@/public/images";
 import NavbarIndicator from "@/shared/components/Navbar/NavbarIndicator";
 import React from "react";
 import { ContactForm } from "./components/contact-form";
+import { useTranslations } from "next-intl";
 
 const Page = () => {
+  const t = useTranslations("contact");
   return (
     <div className="w-full h-full">
       <NavbarIndicator />
@@ -18,7 +20,9 @@ const Page = () => {
             {/* Header */}
             <div className="flex flex-col gap-8 text-center leading-7 px-4 items-center text-project-primary">
               <div className="h-[.5rem] w-[6em] bg-[#f8c307]" />
-              <h1 className="text-5xl font-bold uppercase">Contact us</h1>
+              <h1 className="text-5xl font-bold uppercase">
+                {t("general.pageHeader")}
+              </h1>
               <p className="text-lg text-black">
                 Get a FREE customised quote for your next corporate event or
                 special occasion.

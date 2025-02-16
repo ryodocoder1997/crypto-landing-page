@@ -79,5 +79,123 @@
     "root-5": {
       "name": "Contact"
     }
+  },
+  "products": {
+    "general": {
+      "pageHeader": "Our Product",
+      "pageSidebarHeader": "Products"
+    },
+    "personalFianancialAdvisory": {
+      "header": "Personal Financial Adisory",
+      "title": "Personal Financial Advisory at VietAlgoTrade",
+      "item1": "At VietAlgoTrade, we understand that each individual has unique financial goals and different investment paths. Our Personal Financial Advisory service is designed to help you optimize investment decisions, especially in the dynamic financial market. We apply advanced trading algorithms and in-depth data analysis methods to develop strategies that are accurate and tailored to your financial capacity and risk appetite.",
+      "item2": "By combining expert advice with automated trading technology (algorithmic trading), we not only help you build a solid financial plan but also support you in seizing potential investment opportunities with confidence and high efficiency. Whether you're a beginner or an experienced investor, our services are committed to providing the most suitable financial solutions to help you achieve your long-term financial goals.",
+      "item3": "VietAlgoTrade – Where trading strategies turn into successful financial decisions."
+    },
+    "portfolioManagement": {
+      "header": "Portfolio Management",
+      "title": "Portfolio Management at VietAlgoTrade",
+      "item1": "At VietAlgoTrade, our Portfolio Management service helps you build and maintain an efficient investment portfolio, optimizing returns and minimizing risks in a constantly fluctuating financial market. We combine artificial intelligence and advanced trading algorithms to analyze and monitor investment opportunities regularly, adjusting your portfolio in a flexible and intelligent manner.",
+      "item2": "We understand that each investor has unique financial goals, so our portfolio management service is personalized to meet your specific needs and risk appetite. By utilizing big data analysis tools and automated trading algorithms, you will always receive accurate investment decisions, helping you optimize long-term profits.",
+      "item3": "Whether you're investing in stocks, forex, or other financial assets, VietAlgoTrade is committed to supporting you in managing and growing your portfolio in a professional, efficient, and sustainable manner."
+    },
+    "tradingSystemDevelopment": {
+      "header": "Trading System Development",
+      "title": "Trading System Development Service at VietAlgoTrade",
+      "item1":  "At VietAlgoTrade, we offer a specialized algorithmic trading system development service, designed to optimize trading strategies and performance in the financial markets. Based on a solid data foundation and advanced algorithms, we help investors automate their trading processes, minimize risks, and enhance decision-making speed and accuracy.",
+      "item2": {
+        "title": "Our services include:",
+        "subItem1": "Custom Trading Strategy Development: Analyzing and developing strategies that align with investment goals and the characteristics of the financial markets.",
+        "subItem2": "Trading System Optimization: Utilizing analytical algorithms to optimize profits and minimize losses under changing market conditions.",
+        "subItem3": "Integration of Trading Systems into Real Platforms: We support the integration of trading systems into popular online trading platforms, ensuring high practicality and feasibility."
+      },
+      "item3": "With a team of experts experienced in both finance and technology, VietAlgoTrade is committed to delivering powerful algorithmic trading solutions, helping investors enhance their trading efficiency under all market conditions."
+    },
+    "realTradingAccountAnalysis": {
+      "header": "Real Trading Account Analysis",
+      "title": "Real Trading Account Analysis Service at VietAlgoTrade",
+      "item1": "At VietAlgoTrade, we offer a real trading account analysis service that helps investors assess and optimize their trading performance in the financial markets. By leveraging powerful algorithmic analysis tools, we provide detailed insights into executed trading strategies, offering improvement suggestions and helping investors identify both opportunities and risks during their trading process.",
+      "item2": {
+        "title": "Our services include:",
+        "subItem1": "Trading Performance Analysis: Evaluating the trading performance of real accounts, highlighting strengths and weaknesses in trading strategies.",
+        "subItem2": "Risk Identification and Minimization: Analyzing the risk factors in trading strategies and offering optimal solutions to minimize risk.",
+        "subItem3": "Strategy Optimization Recommendations: Based on real data, we provide specific recommendations on how to optimize trading strategies to improve profitability and overall performance."
+      },
+      "item3": "With a team of experts experienced in finance and data analysis, VietAlgoTrade is committed to providing in-depth analysis and practical solutions that help improve your trading results in the financial markets."
+    },
+    "financialInvestmentCourses": {
+      "header": "Financial Investment Courses",
+      "title": "Financial Investment Course at VietAlgoTrade",
+      "item1": "At VietAlgoTrade, we offer in-depth financial investment courses specifically designed to help investors in Vietnam master the essential knowledge of the financial markets and algorithmic trading. Our courses are not just theoretical; they also cover practical strategies tailored to the characteristics and trends of the financial market.",
+      "item2": {
+        "title": "Our course services include:",
+        "subItem1": "Solid foundational knowledge: Students will be equipped with basic knowledge of financial markets, types of assets, and financial analysis methods.",
+        "subItem2": "Practical investment strategies: Detailed guidance on effective investment strategies, from market trend analysis to using algorithmic tools to optimize returns.",
+        "subItem3": "Algorithmic trading application: Skills for applying algorithmic trading to automate investment strategies and maximize trading efficiency.",
+        "subItem4": "Learn from experts: The course is taught by experts with rich experience in finance and technology, ensuring that you gain the most insightful and practical knowledge."
+      },
+      "item3": "With the motto 'Learning by doing', VietAlgoTrade is committed to providing a practical and effective learning environment, helping you build a solid foundation to become a successful investor in the financial market."
+    }
+  },
+  "clientAccounts": {
+    "general": {
+      "pageHeader": "Client Accounts",
+      "account": {
+        "type1": "Account: 0 - 1,000 USD",
+        "type2": "Account: 1,000 - 5,000 USD",
+        "type3": "Account: >= 5000 USD"
+      }
+    },
+    "introduction": {
+      "item1": "Welcome to VietAlgoTrade.com – a pioneering platform providing professional and efficient account management solutions for traders!",
+      "item2": {
+        "title": "We understand that the financial market is not only a playground full of opportunities but also comes with significant challenges and risks. That’s why the Account Management Service at VietAlgoTrade is designed to help you:",
+        "subItem1": "Maximize profits through trading strategies built on advanced algorithms.",
+        "subItem2": "Minimize risks by applying scientific and effective capital management methods.",
+        "subItem3": "Save time – you no longer need to monitor the market daily, as our team of experts and technology will do it for you."
+      }
+    },
+    "details": {
+      "accountOpeningDate": "Account Opening Date",
+      "tradingMarket": "Trading Market",
+      "broker": "Broker",
+      "expectedMonthlyProfit": "Expected Monthly Profit",
+      "maximumDrawdown": "Maximum Drawdown",
+      "contactForConsultation": "Contact For Consultation"
+    }
+  },
+  "newsAndEvents": {
+    "general": {
+      "pageHeader": "News & Events"
+    },
+    "introduction": {
+      "item1": "Welcome to the News and Events section of VietAlgoTrade – your go-to source for the latest and most important updates from the financial markets, as well as industry events and webinars that keep you informed and ahead of the curve.",
+      "item2": {
+        "title": "In our News and Events section, we provide you with:",
+        "subItem1": "In-depth market analyses, helping you understand the factors influencing investment decisions.",
+        "subItem2": "Updates on emerging trends in trading technologies, algorithms, and artificial intelligence (AI) – tools that optimize your investment strategies.",
+        "subItem3": "Information on upcoming events: conferences, webinars, training sessions, and networking opportunities for investors."
+      },
+      "item3": "We are committed to providing reliable articles, curated from trusted sources and offering deep insights, ensuring you stay proactive and confident in your investment choices."
+    }
+  },
+  "community": {
+    "general": {
+      "pageHeader": "Community"
+    },
+    "introduction": {
+      "item1": "Welcome to the VietAlgoTrade Community – a space where finance enthusiasts and experts come together to share knowledge, analyze the markets, and learn effective trading strategies.",
+      "item2": {
+        "title": "In our Community section, we offer two main parts:",
+        "subItem1": "Market Forecasting: Here, we provide detailed analysis and forecasts on market trends in the near future. You’ll get regular updates on factors impacting asset values, helping you identify investment opportunities and make informed decisions.",
+        "subItem2": "Financial Trading Research: This section provides knowledge ranging from basic to advanced trading techniques. In addition to trading strategies, we share practical experiences from seasoned investors, along with lessons on probability and statistics – essential tools for optimizing your trading strategies."
+      },
+      "item3": "We believe that a strong community will help you grow not only in knowledge but also in making smarter investment decisions. Join the VietAlgoTrade Community to receive support and learn from experienced traders, as we navigate the financial markets together."
+    }
+  },
+  "contact": {
+    "general": {
+      "pageHeader": "Contact Us"
+    }
   }
 }

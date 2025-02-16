@@ -1,8 +1,10 @@
 import React from "react";
 import { images } from "@/public/images";
 import NavbarIndicator from "@/shared/components/Navbar/NavbarIndicator";
+import { useTranslations } from "next-intl";
 
 const Page = () => {
+  const t = useTranslations("newsAndEvents");
   return (
     <div className="h-full w-full">
       <NavbarIndicator />
@@ -16,31 +18,27 @@ const Page = () => {
           {/* Corporate Catering in Sydney */}
           <div className="flex flex-col gap-8 text-center leading-7 px-4 items-center text-project-primary">
             <div className="h-[.5rem] w-[6em] bg-[#f8c307]" />
-            <h1 className="text-5xl font-bold uppercase">Event & News</h1>
-            <p className="text-lg">
-              Welcome to the News and Events section of VietAlgoTrade – your
-              go-to source for the latest and most important updates from the
-              financial markets, as well as industry events and webinars that
-              keep you informed and ahead of the curve.
-            </p>
+            <h1 className="text-5xl font-bold uppercase">
+              {t("general.pageHeader")}
+            </h1>
+            <p className="text-lg">{t("introduction.item1")}</p>
             <div className="h-[.5rem] w-[6em] bg-[#f8c307]" />
           </div>
 
           <div className="text-black text-lg leading-7 flex flex-col gap-4">
-            <p>In our News and Events section, we provide you with:</p>
+            <p>{t("introduction.item2.title")}</p>
             <p className="first-letter:uppercase first-letter:text-2xl first-letter:font-semibold">
-              In-depth market analyses, helping you understand the factors
-              influencing investment decisions. Updates on emerging trends in
-              trading technologies, algorithms, and artificial intelligence (AI)
-              – tools that optimize your investment strategies.
+              {t("introduction.item2.subItem1")}
             </p>
             <p className="first-letter:uppercase first-letter:text-2xl first-letter:font-semibold">
-              Information on upcoming events: conferences, webinars, training
-              sessions, and networking opportunities for investors. We are
-              committed to providing reliable articles, curated from trusted
-              sources and offering deep insights, ensuring you stay proactive
-              and confident in your investment choices.
+              {t("introduction.item2.subItem2")}
             </p>
+            <p className="first-letter:uppercase first-letter:text-2xl first-letter:font-semibold">
+              {t("introduction.item2.subItem3")}
+            </p>
+          </div>
+          <div className="text-black text-lg leading-7 flex flex-col gap-4">
+            {t("introduction.item3")}
           </div>
         </div>
       </div>

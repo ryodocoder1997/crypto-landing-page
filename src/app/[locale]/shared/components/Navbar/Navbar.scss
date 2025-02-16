@@ -95,6 +95,10 @@
           color: #fff;
         }
 
+        &:not(:first-child) {
+          border-left: 1px solid #fff;
+        }
+
         .nav-menu-search-content {
           background-color: transparent;
           padding: 0;
@@ -162,6 +166,12 @@
             align-items: center;
             gap: 0.5rem;
             font-weight: bold;
+          }
+        }
+
+        .nav-language-utilities-btn {
+          &.active {
+            color: #fff;
           }
         }
       }

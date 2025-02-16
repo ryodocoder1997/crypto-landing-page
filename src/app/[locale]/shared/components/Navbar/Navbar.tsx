@@ -28,7 +28,7 @@ import {
 import { Input } from "@/components/ui/input";
 
 import { images } from "@/public/images";
-import { useRouter } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 import "./Navbar.scss";
 import { useTranslations } from "next-intl";
 
@@ -36,9 +36,16 @@ const MENU_DROPDOWN_OPEN_DELAY = 50;
 const MENU_DROPDOWN_CLOSE_DELAY = 100;
 
 export const Navbar = () => {
-  const [isSticky, setIsSticky] = useState(false);
   const router = useRouter();
+  const pathname = usePathname();
+
+  const [isSticky, setIsSticky] = useState(false);
+  const [activeLang, setActiveLang] = useState("");
   const t = useTranslations("navbar");
+
+  const toogleLanguage = (language: string) => {
+    router.replace(`/${language}${pathname.replace(`/${activeLang}`, "")}`);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -56,6 +63,15 @@ export const Navbar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  useEffect(() => {
+    if (pathname.includes("/en")) {
+      setActiveLang("en");
+    } else if (pathname.includes("/vi")) {
+      setActiveLang("vi");
+    }
+  }, [pathname]);
+
   return (
     <div
       className={cn(
@@ -204,6 +220,32 @@ export const Navbar = () => {
                   </HoverCardContent>
                 </HoverCard>
               </div>
+            </NavigationMenuItem>
+          </ul>
+
+          {/* --- LANGUAGE  --- */}
+          <ul className="nav-menu-header-utilities-container">
+            <NavigationMenuItem className="nav-menu-header-utilities">
+              <button
+                className={cn(
+                  "nav-language-utilities-btn",
+                  activeLang === "en" && "active"
+                )}
+                onClick={() => toogleLanguage("en")}
+              >
+                ENG
+              </button>
+            </NavigationMenuItem>
+            <NavigationMenuItem className="nav-menu-header-utilities">
+              <button
+                className={cn(
+                  "nav-language-utilities-btn",
+                  activeLang === "vi" && "active"
+                )}
+                onClick={() => toogleLanguage("vi")}
+              >
+                VIE
+              </button>
             </NavigationMenuItem>
           </ul>
         </NavigationMenuList>

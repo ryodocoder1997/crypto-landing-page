@@ -2,6 +2,7 @@
 
 import {
   Carousel,
+  CarouselApi,
   CarouselContent,
   CarouselItem,
   CarouselNext,
@@ -13,10 +14,29 @@ import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useTranslations } from "next-intl";
+import { useEffect, useState } from "react";
 
 export default function Home() {
   const t = useTranslations("rootLayout");
+  const [current, setCurrent] = useState(0);
 
+  const [api, setApi] = useState<CarouselApi>();
+
+  const scrollToIndex = (index: number) => {
+    if (!api) return;
+
+    api.scrollTo(index);
+  };
+
+  useEffect(() => {
+    if (!api) return;
+
+    setCurrent(api.selectedScrollSnap());
+
+    api.on("select", () => {
+      setCurrent(api.selectedScrollSnap());
+    });
+  }, [api]);
   return (
     <>
       <Carousel
@@ -30,6 +50,7 @@ export default function Home() {
             stopOnInteraction: false,
           }),
         ]}
+        setApi={setApi}
       >
         <CarouselContent>
           <CarouselItem>
@@ -38,11 +59,11 @@ export default function Home() {
               style={{ backgroundImage: `url(${images.home1})` }}
             >
               <div className="flex flex-col justify-center items-center animate-fade-down animate-duration-[1000ms]">
-                <div className="text-center text-[5.625rem] uppercase font-extrabold leading-[4.375rem] text-white">
+                <div className="text-[2rem] uppercase font-extrabold leading-[4.375rem] text-project-primary">
                   {t("title-carousel")}
                 </div>
                 <div className="h-[.5rem] w-[4.375em] mt-[2.5rem] bg-[#f8c307] mb-[1.5625rem]" />
-                <p className="text-[1.375rem] leading-[1.625rem] mt-[1rem] mb-[2.5rem] text-white">
+                <p className="text-[3.375rem] leading-[1.625rem] mt-[1rem] mb-[2.5rem] text-white">
                   {t("description-carousel")}
                 </p>
                 <Link
@@ -60,11 +81,11 @@ export default function Home() {
               style={{ backgroundImage: `url(${images.home1})` }}
             >
               <div className="flex flex-col justify-center items-center animate-fade-down animate-duration-[1000ms]">
-                <div className="text-center text-[5.625rem] uppercase font-extrabold leading-[4.375rem] text-white">
+                <div className="text-[2rem] uppercase font-extrabold leading-[4.375rem] text-project-primary">
                   {t("title-carousel-2")}
                 </div>
                 <div className="h-[.5rem] w-[4.375em] mt-[2.5rem] bg-[#f8c307] mb-[1.5625rem]" />
-                <p className="text-[1.375rem] leading-[1.625rem] mt-[1rem] mb-[2.5rem] text-white">
+                <p className="text-[3.375rem] leading-[1.625rem] mt-[1rem] mb-[2.5rem] text-white">
                   {t("description-carousel-2")}
                 </p>
                 <Link
@@ -82,11 +103,11 @@ export default function Home() {
               style={{ backgroundImage: `url(${images.home1})` }}
             >
               <div className="flex flex-col justify-center items-center animate-fade-down animate-duration-[1000ms]">
-                <div className="text-center text-[5.625rem] uppercase font-extrabold leading-[4.375rem] text-white">
+                <div className="text-[2rem] uppercase font-extrabold leading-[4.375rem] text-project-primary">
                   {t("title-carousel-3")}
                 </div>
                 <div className="h-[.5rem] w-[4.375em] mt-[2.5rem] bg-[#f8c307] mb-[1.5625rem]" />
-                <p className="text-[1.375rem] leading-[1.625rem] mt-[1rem] mb-[2.5rem] text-white">
+                <p className="text-[3.375rem] leading-[1.625rem] mt-[1rem] mb-[2.5rem] text-white">
                   {t("description-carousel-3")}
                 </p>
                 <Link
@@ -101,6 +122,18 @@ export default function Home() {
         </CarouselContent>
         <CarouselPrevious className="absolute top-1/2 left-0 [&::before]:left-0" />
         <CarouselNext className="absolute top-1/2 right-0 [&::before]:right-0" />
+        {/* Navigation Dots */}
+        <div className="absolute top-[40%] left-[7rem] flex flex-col justify-center gap-3 z-20">
+          {Array.from({ length: 3 }).map((_, index) => (
+            <button
+              key={index}
+              onClick={() => scrollToIndex(index)}
+              className={`w-8 h-8 rounded-full ${
+                current === index ? "bg-[#f8c307]" : "bg-gray-300"
+              }`}
+            />
+          ))}
+        </div>
       </Carousel>
       <div className="w-full flex flex-row gap-3">
         <div className="w-2/3">

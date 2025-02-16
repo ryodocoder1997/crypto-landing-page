@@ -79,5 +79,123 @@
     "root-5": {
       "name": "Liên Hệ"
     }
+  },
+  "products": {
+    "general": {
+      "pageHeader": "Sản Phẩm Của Chúng Tôi",
+      "pageSidebarHeader": "Sản Phẩm"
+    },
+    "personalFianancialAdvisory": {
+      "header": "Tư Vấn Tài Chính Cá Nhân",
+      "title": "Tư Vấn Tài Chính Cá Nhân tại VietAlgoTrade",
+      "item1": "Tại VietAlgoTrade, chúng tôi hiểu rằng mỗi cá nhân có một mục tiêu tài chính riêng biệt và con đường đầu tư cũng không giống nhau. Dịch vụ Tư Vấn Tài Chính Cá Nhân của chúng tôi được xây dựng để giúp bạn tối ưu hóa các quyết định đầu tư, đặc biệt là trong thị trường tài chính đầy biến động. Chúng tôi áp dụng các thuật toán giao dịch tiên tiến và phương pháp phân tích dữ liệu chuyên sâu để đưa ra những chiến lược đầu tư chính xác, phù hợp với khả năng tài chính và khẩu vị rủi ro của bạn.",
+      "item2": "Bằng việc kết hợp giữa tư vấn chuyên môn và công nghệ giao dịch tự động (algorithmic trading), chúng tôi không chỉ giúp bạn xây dựng một kế hoạch tài chính vững chắc, mà còn hỗ trợ bạn tiếp cận các cơ hội đầu tư tiềm năng với sự tự tin và hiệu quả cao. Dù bạn là người mới bắt đầu hay đã có kinh nghiệm đầu tư, dịch vụ của chúng tôi cam kết mang đến những giải pháp tài chính phù hợp nhất, giúp bạn đạt được các mục tiêu tài chính dài hạn.",
+      "item3": "VietAlgoTrade - Nơi biến chiến lược giao dịch thành công vào trong từng quyết định tài chính của bạn."
+    },
+    "portfolioManagement": {
+      "header": "Quản Trị Danh Mục Đầu Tư",
+      "title": "Quản trị Danh Mục Đầu Tư tại VietAlgoTrade",
+      "item1": "Tại VietAlgoTrade, dịch vụ Quản trị Danh Mục Đầu Tư của chúng tôi giúp bạn xây dựng và duy trì một danh mục đầu tư hiệu quả, tối ưu hóa lợi nhuận và giảm thiểu rủi ro trong một thị trường tài chính không ngừng biến động. Chúng tôi kết hợp trí tuệ nhân tạo và các thuật toán giao dịch tiên tiến để phân tích và giám sát thường xuyên các cơ hội đầu tư, từ đó điều chỉnh danh mục của bạn một cách linh hoạt và thông minh.",
+      "item2": "Chúng tôi hiểu rằng mỗi nhà đầu tư có một mục tiêu tài chính riêng, vì vậy dịch vụ quản trị danh mục đầu tư của chúng tôi được thiết kế cá nhân hóa để đáp ứng đúng nhu cầu và khẩu vị rủi ro của bạn. Với việc sử dụng các công cụ phân tích dữ liệu lớn (big data) và thuật toán giao dịch tự động, bạn sẽ luôn được cập nhật những quyết định đầu tư chính xác, giúp tối ưu hóa lợi nhuận dài hạn.",
+      "item3": "Dù bạn đang đầu tư vào chứng khoán, ngoại hối hay các tài sản tài chính khác, VietAlgoTrade cam kết đồng hành cùng bạn trong việc quản lý và phát triển danh mục đầu tư một cách chuyên nghiệp, hiệu quả, và bền vững."
+    },
+    "tradingSystemDevelopment": {
+      "header": "Xây Dựng Hệ Thống Giao Dịch",
+      "title": "Dịch vụ Xây dựng Hệ thống Giao dịch tại VietAlgoTrade",
+      "item1": "Tại VietAlgoTrade, chúng tôi cung cấp dịch vụ xây dựng hệ thống giao dịch thuật toán chuyên biệt, được thiết kế để tối ưu hóa chiến lược và hiệu suất giao dịch trên thị trường tài chính. Dựa trên nền tảng dữ liệu vững chắc và các thuật toán tiên tiến, chúng tôi giúp các nhà đầu tư tự động hóa quy trình giao dịch, giảm thiểu rủi ro và tăng cường khả năng ra quyết định chính xác, nhanh chóng.",
+      "item2": {
+        "title": "Dịch vụ của chúng tôi bao gồm:",
+        "subItem1": "Xây dựng chiến lược giao dịch tùy chỉnh: Phân tích và phát triển các chiến lược phù hợp với mục tiêu đầu tư và tính chất thị trường tài chính.",
+        "subItem2": "Tối ưu hóa hệ thống giao dịch: Sử dụng các thuật toán phân tích để tối ưu hóa lợi nhuận và giảm thiểu thiệt hại trong các điều kiện thị trường thay đổi.",
+        "subItem3": "Tích hợp hệ thống giao dịch vào nền tảng thực tế: Chúng tôi hỗ trợ tích hợp các hệ thống giao dịch vào nền tảng giao dịch trực tuyến phổ biến, đảm bảo tính khả thi và hiệu quả thực tiễn cao."
+      },
+      "item3": "Với đội ngũ chuyên gia giàu kinh nghiệm trong lĩnh vực tài chính và công nghệ, VietAlgoTrade cam kết mang đến giải pháp giao dịch thuật toán mạnh mẽ, hỗ trợ nhà đầu tư nâng cao hiệu quả giao dịch trong mọi điều kiện thị trường."
+    },
+    "realTradingAccountAnalysis": {
+      "header": "Phân Tích Tài Khoản Giao Dịch Thực Tế",
+      "title": "Dịch vụ Phân tích Tài khoản Giao dịch Thực tế tại VietAlgoTrade",
+      "item1": "Tại VietAlgoTrade, chúng tôi cung cấp dịch vụ phân tích tài khoản giao dịch thực tế, giúp các nhà đầu tư đánh giá và tối ưu hóa hiệu quả giao dịch của mình trên thị trường tài chính. Bằng cách sử dụng các công cụ phân tích thuật toán mạnh mẽ, chúng tôi cung cấp cái nhìn chi tiết về các chiến lược giao dịch đã thực hiện, từ đó đưa ra các đề xuất cải tiến và giúp nhà đầu tư nhận diện được các cơ hội cũng như rủi ro trong quá trình giao dịch.",
+      "item2": {
+        "title": "Dịch vụ của chúng tôi bao gồm:",
+        "subItem1": "Phân tích hiệu quả giao dịch: Đánh giá hiệu suất giao dịch trên các tài khoản thực tế, từ đó chỉ ra những điểm mạnh và điểm yếu trong chiến lược giao dịch.",
+        "subItem2": "Xác định và giảm thiểu rủi ro: Phân tích các yếu tố rủi ro trong chiến lược giao dịch và đưa ra các giải pháp giảm thiểu rủi ro tối ưu.",
+        "subItem3": "Khuyến nghị tối ưu hóa chiến lược: Dựa trên dữ liệu thực tế, chúng tôi cung cấp các khuyến nghị cụ thể về cách tối ưu hóa chiến lược giao dịch để cải thiện tỷ lệ lợi nhuận và hiệu quả tổng thể."
+      },
+      "item3": "Với đội ngũ chuyên gia giàu kinh nghiệm trong lĩnh vực tài chính và phân tích dữ liệu, VietAlgoTrade cam kết mang đến cho bạn những phân tích sâu sắc và giải pháp thực tiễn giúp cải thiện kết quả giao dịch của bạn trên thị trường tài chính."
+    },
+    "financialInvestmentCourses": {
+      "header": "Khóa Học Đầu Tư Tài Chính",
+      "title": "Khóa Học Đầu Tư Tài Chính tại VietAlgoTrade",
+      "item1": "Tại VietAlgoTrade, chúng tôi cung cấp các khóa học đầu tư tài chính chuyên sâu, được thiết kế đặc biệt để giúp các nhà đầu tư Việt Nam nắm vững các kiến thức quan trọng về thị trường tài chính và giao dịch thuật toán. Khóa học của chúng tôi không chỉ đơn thuần là lý thuyết mà còn bao gồm các chiến lược thực tế, phù hợp với đặc điểm và xu hướng của thị trường tài chính.",
+      "item2": {
+        "title": "Dịch vụ khóa học của chúng tôi bao gồm:",
+        "subItem1": "Kiến thức nền tảng vững chắc: Học viên sẽ được trang bị kiến thức cơ bản về thị trường tài chính, các loại hình tài sản và phương pháp phân tích tài chính.",
+        "subItem2": "Chiến lược đầu tư thực tiễn: Hướng dẫn chi tiết về các chiến lược đầu tư hiệu quả, từ việc phân tích xu hướng thị trường đến sử dụng các công cụ thuật toán để tối ưu hóa lợi nhuận.",
+        "subItem3": "Ứng dụng giao dịch thuật toán: Cung cấp kỹ năng sử dụng các thuật toán giao dịch trong việc tự động hóa chiến lược đầu tư và tối đa hóa hiệu quả giao dịch.",
+        "subItem4": "Học hỏi từ chuyên gia: Khóa học được giảng dạy bởi các chuyên gia giàu kinh nghiệm trong lĩnh vực tài chính và công nghệ, cam kết mang đến cho bạn cái nhìn sâu sắc và những kiến thức thực tiễn nhất."
+      },
+      "item3": "Với phương châm 'Học đi đôi với hành', VietAlgoTrade cam kết mang đến cho bạn một môi trường học tập thực tế và hiệu quả, giúp bạn xây dựng nền tảng vững chắc để trở thành nhà đầu tư thành công trên thị trường tài chính."
+    }
+  },
+  "clientAccounts": {
+    "general": {
+      "pageHeader": "Tài Khoản Khách Hàng",
+      "account": {
+        "type1": "Tài khoản: 0 - 1,000 USD",
+        "type2": "Tài khoản: 1,000 - 5,000 USD",
+        "type3": "Tài khoản: >= 5000 USD"
+      }
+    },
+    "introduction": {
+      "item1": "Chào mừng bạn đến với VietAlgoTrade.com – nền tảng tiên phong trong việc cung cấp giải pháp quản lý tài khoản giao dịch chuyên nghiệp và hiệu quả!",
+      "item2": {
+        "title": "Chúng tôi hiểu rằng thị trường tài chính không chỉ là một sân chơi đầy cơ hội mà còn đi kèm với những thách thức và rủi ro lớn. Vì vậy, dịch vụ Quản lý tài khoản giao dịch của VietAlgoTrade được thiết kế để giúp bạn:",
+        "subItem1": "Tối ưu hóa lợi nhuận thông qua các chiến lược giao dịch được xây dựng từ những thuật toán tiên tiến.",
+        "subItem2": "Giảm thiểu rủi ro bằng cách sử dụng các phương pháp quản trị vốn khoa học và hiệu quả.",
+        "subItem3": "Tiết kiệm thời gian – bạn không cần phải theo dõi thị trường hàng ngày, đội ngũ chuyên gia và công nghệ của chúng tôi sẽ thay bạn làm điều đó."
+      }
+    },
+    "details": {
+      "accountOpeningDate": "Ngày Mở Tài Khoản",
+      "tradingMarket": "Loại Thị Trường",
+      "broker": "Sàn giao dịch",
+      "expectedMonthlyProfit": "Lợi Nhuận Kỳ Vọng Hàng Tháng",
+      "maximumDrawdown": "Mức Sụt Giảm Vốn Tối Đa",
+      "contactForConsultation": "Liên Hệ Tư Vấn"
+    }
+  },
+  "newsAndEvents": {
+    "general": {
+      "pageHeader": "Tin Tức & Sự Kiện"
+    },
+    "introduction": {
+      "item1": "Chào mừng bạn đến với Tin tức và Sự kiện của VietAlgoTrade – nơi cập nhật những thông tin mới nhất và quan trọng nhất từ thị trường tài chính, cũng như các sự kiện, hội thảo chuyên ngành để bạn luôn nắm bắt cơ hội và xu hướng mới.",
+      "item2": {
+        "title": "Tại mục Tin tức và Sự kiện, chúng tôi mang đến cho bạn:",
+        "subItem1": "Những phân tích chuyên sâu về các diễn biến thị trường tài chính, giúp bạn hiểu rõ hơn về những yếu tố ảnh hưởng đến quyết định đầu tư.",
+        "subItem2": "Cập nhật xu hướng mới trong các công nghệ giao dịch, thuật toán, và trí tuệ nhân tạo (AI) – những công cụ giúp tối ưu hóa chiến lược đầu tư của bạn.",
+        "subItem3": "Thông tin về các sự kiện sắp tới: hội thảo, webinar, buổi đào tạo, cùng các chương trình kết nối cộng đồng nhà đầu tư."
+      },
+      "item3": "Chúng tôi cam kết cung cấp các bài viết đáng tin cậy, được tổng hợp từ các nguồn thông tin uy tín và phân tích sâu sắc, giúp bạn luôn chủ động và tự tin trong các quyết định đầu tư."
+    }
+  },
+  "community": {
+    "general": {
+      "pageHeader": "Cộng Đồng"
+    },
+    "introduction": {
+      "item1": "Chào mừng bạn đến với Cộng đồng VietAlgoTrade – nơi kết nối những người đam mê và chuyên gia trong lĩnh vực tài chính, cùng nhau chia sẻ kiến thức, phân tích thị trường và học hỏi những chiến lược giao dịch hiệu quả.",
+      "item2": {
+        "title": "Tại mục Cộng đồng, chúng tôi cung cấp hai phần chính:",
+        "subItem1": "Dự báo thị trường: Đây là nơi chúng tôi chia sẻ những phân tích chi tiết và dự báo về xu hướng thị trường trong thời gian tới. Bạn sẽ được cập nhật thường xuyên về các yếu tố tác động đến giá trị tài sản, giúp bạn nắm bắt cơ hội đầu tư và đưa ra quyết định chính xác.",
+        "subItem2": "Nghiên cứu giao dịch tài chính: Mục này cung cấp cho bạn kiến thức từ cơ bản đến nâng cao về giao dịch tài chính. Bên cạnh các chiến lược giao dịch, chúng tôi còn chia sẻ kinh nghiệm thực chiến từ những nhà đầu tư kỳ cựu, cùng với các bài học về toán xác suất thống kê – công cụ quan trọng để tối ưu hóa chiến lược giao dịch của bạn."
+      },
+      "item3": "Chúng tôi tin rằng, một cộng đồng mạnh mẽ sẽ giúp bạn phát triển không chỉ về kiến thức mà còn về khả năng ra quyết định đầu tư thông minh. Hãy tham gia Cộng đồng VietAlgoTrade để nhận được sự hỗ trợ và học hỏi từ những người đi trước, cùng nhau chinh phục thị trường tài chính."
+    }
+  },
+  "contact": {
+    "general": {
+      "pageHeader": "Liên Hệ Chúng Tôi"
+    }
   }
 }
